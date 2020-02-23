@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1a30f8e6-9edd-4f51-b6a9-b6adbb244f2c",
+            "Value": {
+                "id": "154138ff-0384-42ee-a0e6-5467532df697",
+                "resourcePath": "scripts\\get_input2\\get_input2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1a7cfed0-e4ee-44a8-b088-bde02d29e7aa",
             "Value": {
                 "id": "2c238122-c6b7-4784-9fb9-d2e7368b0fee",
@@ -95,11 +103,27 @@
             }
         },
         {
+            "Key": "2f31cd9c-c61c-4de9-bc9a-bb154976de3e",
+            "Value": {
+                "id": "173d2290-0c5a-4af8-b219-17a989f4754c",
+                "resourcePath": "objects\\FelxJr_Obj\\FelxJr_Obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "332802fb-9a64-4a13-9eb0-3de7e326afbc",
             "Value": {
                 "id": "4689b3c9-ca1e-4fca-abf5-73e0ae00a0ce",
                 "resourcePath": "views\\332802fb-9a64-4a13-9eb0-3de7e326afbc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3bac24c6-374d-4c17-946c-90ae17a9880a",
+            "Value": {
+                "id": "0ed36455-6620-4cb4-85ad-fa162a3aa274",
+                "resourcePath": "sprites\\FelixJr_Sprite_Air\\FelixJr_Sprite_Air.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -132,6 +156,14 @@
                 "id": "82ba32bf-1c28-4e78-a11c-b414e4c6246c",
                 "resourcePath": "views\\46529718-af14-4368-bc47-e0c7f3064576.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "513922d1-7981-4ec0-affe-400dd2fc9208",
+            "Value": {
+                "id": "f6d7de31-a502-4e55-90ab-f35891782134",
+                "resourcePath": "sprites\\FelixJr_Sprite_Main\\FelixJr_Sprite_Main.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -255,6 +287,14 @@
             }
         },
         {
+            "Key": "bbab9b9e-e56e-45bb-906c-162f996ca98e",
+            "Value": {
+                "id": "5b03f675-8b1c-44ea-90fe-2ddff94e8031",
+                "resourcePath": "sprites\\FelixJr_Sprite_Walk\\FelixJr_Sprite_Walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bde851bb-a417-49b9-8e75-9c9237588fc8",
             "Value": {
                 "id": "1147c983-2505-4b31-a14d-6da06d8bf8e0",
@@ -321,6 +361,7 @@
     ],
     "script_order": [
         "460f66a2-bf89-4795-b5e3-6effe6f42c73",
+        "1a30f8e6-9edd-4f51-b6a9-b6adbb244f2c",
         "6bdf7b36-c5cd-4653-a82c-26a75ae66e35",
         "bde851bb-a417-49b9-8e75-9c9237588fc8",
         "87c2e2e0-dd28-4f14-8f86-d2b2790f9eee",
