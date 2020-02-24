@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "374d046e-9839-4889-bbde-6e5fb0ee2ccb",
+            "Value": {
+                "id": "7d5aec59-e8d9-406e-9d0a-6a21fac9463f",
+                "resourcePath": "rooms\\start_room\\start_room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3bac24c6-374d-4c17-946c-90ae17a9880a",
             "Value": {
                 "id": "0ed36455-6620-4cb4-85ad-fa162a3aa274",
@@ -204,6 +212,14 @@
                 "id": "275ae092-df00-4dfd-9e46-134950426d4b",
                 "resourcePath": "views\\580f0fba-1464-45b5-926e-a2c3c3ecfa4d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5e14ffb8-e5f2-4f7c-a0c3-c82b00ba64fa",
+            "Value": {
+                "id": "2b3af675-d0b8-45f5-9d99-3ad2b4777576",
+                "resourcePath": "sprites\\s_coin\\s_coin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -292,6 +308,14 @@
                 "id": "8d5c64b9-cb4d-4ff4-9438-11596251a8d5",
                 "resourcePath": "views\\aafcd123-a8af-4443-9043-c4ed8218afc7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b733bf9a-b116-4277-ba62-477690deef8b",
+            "Value": {
+                "id": "43d20b28-eebe-4f1c-afa2-7cf88454a48b",
+                "resourcePath": "fonts\\arcade_font\\arcade_font.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -391,6 +415,14 @@
             }
         },
         {
+            "Key": "ec771e0d-287b-4c83-bb77-4dab508eb30c",
+            "Value": {
+                "id": "e2780e91-444f-49af-847a-8d7c8d6b77f6",
+                "resourcePath": "objects\\o_start\\o_start.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f2243dd9-0ccc-4938-a9d2-6ca305b8500a",
             "Value": {
                 "id": "13e6b934-a075-4cba-85e1-5d0725c4b9c8",
@@ -404,6 +436,14 @@
                 "id": "1e87ac75-42f0-4859-8d4d-624c3f516a42",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f76e5ce0-74d2-46ef-b53a-b7c32aaf45e7",
+            "Value": {
+                "id": "7826c44b-e701-4ba2-bb2f-248c825bb8b7",
+                "resourcePath": "objects\\admin_obj\\admin_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
