@@ -1,42 +1,59 @@
 {
-    "id": "64382624-b97d-4f0f-937a-2a959c7781aa",
+    "id": "fef6b67f-4b90-4fc0-9e24-656a5c780b65",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "FelxSr_Obj",
+    "name": "o_rat",
     "eventList": [
         {
-            "id": "6a901fee-9a6b-42cd-911e-8638cfb9ee4f",
+            "id": "0774988e-dc4c-4e55-897b-c51e6b0692d4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "64382624-b97d-4f0f-937a-2a959c7781aa"
+            "m_owner": "fef6b67f-4b90-4fc0-9e24-656a5c780b65"
         },
         {
-            "id": "30540067-d2c7-4dd4-9d43-04687a75c1fe",
+            "id": "d622b946-70b6-4b15-99de-8d36f960c1e0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "64382624-b97d-4f0f-937a-2a959c7781aa"
+            "m_owner": "fef6b67f-4b90-4fc0-9e24-656a5c780b65"
         },
         {
-            "id": "2e448ca0-6270-439e-92cf-2e6553465e4a",
+            "id": "352ce822-13a2-4b55-909d-4ff4e2c24f93",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 7,
-            "m_owner": "64382624-b97d-4f0f-937a-2a959c7781aa"
+            "m_owner": "fef6b67f-4b90-4fc0-9e24-656a5c780b65"
         }
     ],
-    "maskSpriteId": "1bc7e5ee-7112-44e4-841f-ab1fc2245caf",
-    "overriddenProperties": null,
+    "maskSpriteId": "d09107e0-3856-4767-8d42-49cebbdacee5",
+    "overriddenProperties": [
+        {
+            "id": "0b19a36e-9e14-49b8-b643-267181551bb8",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "de2f53c7-6671-4edf-ac08-bba4883cc0d9",
+            "propertyId": "7bc29e80-5187-45d5-aec0-b322d156b06e",
+            "value": "s_rat_dead"
+        },
+        {
+            "id": "906da854-1b03-4ec1-a7d4-3f3594a250c5",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "de2f53c7-6671-4edf-ac08-bba4883cc0d9",
+            "propertyId": "a6675631-8031-4c76-93c5-3fd36ebe3a80",
+            "value": "es.WALK"
+        }
+    ],
     "parentObjectId": "de2f53c7-6671-4edf-ac08-bba4883cc0d9",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -53,7 +70,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "f0a97a58-3430-4583-bf1f-279b668502bc",
+            "id": "8c666f31-fd98-4064-8251-6f0633d06070",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,12 +79,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "1.2",
             "varName": "walk_spd",
             "varType": 0
         },
         {
-            "id": "f1a4ffea-c115-4308-8d65-d959cfc07130",
+            "id": "8d4bec70-f5dc-4a48-9327-dbbe26a6a4bd",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -81,7 +98,7 @@
             "varType": 0
         },
         {
-            "id": "f0e5c495-dd75-4733-921c-a84e4f101ce5",
+            "id": "15223862-c963-42f9-ada5-093055c6d4ee",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -90,12 +107,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "FelixSr_Sprite_Main",
+            "value": "s_rat_idle",
             "varName": "spr_idle",
             "varType": 0
         },
         {
-            "id": "596a83ae-cd8b-49a1-9bbc-c8736ad0ddfa",
+            "id": "8d310978-ead0-4290-be38-ab50395f151e",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -104,12 +121,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "FelixSr_Sprite_Walk",
+            "value": "s_rat_walk",
             "varName": "spr_walk",
             "varType": 0
         },
         {
-            "id": "04eafd61-3ef9-4848-be5e-89e185a56664",
+            "id": "0d054ff9-fd61-41f9-8689-24aee4fd9db6",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -124,6 +141,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "1bc7e5ee-7112-44e4-841f-ab1fc2245caf",
+    "spriteId": "d09107e0-3856-4767-8d42-49cebbdacee5",
     "visible": true
 }

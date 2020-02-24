@@ -134,6 +134,20 @@
             "value": "ps.IDLE",
             "varName": "state",
             "varType": 1
+        },
+        {
+            "id": "7bc29e80-5187-45d5-aec0-b322d156b06e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "FelixSr_Sprite_Main",
+            "varName": "spr_dead",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -81,7 +81,7 @@
             "varType": 0
         },
         {
-            "id": "453634bc-630a-43b9-b3d9-56db8f5b2ae9",
+            "id": "92ea7be8-9dd3-490e-8b52-a3286c62bca0",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -95,7 +95,7 @@
             "varType": 0
         },
         {
-            "id": "8b521830-a148-4e8c-a579-f1089473f096",
+            "id": "35e08ba9-03e5-4243-819c-d3cebc8d67d7",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -109,7 +109,7 @@
             "varType": 0
         },
         {
-            "id": "c23824a4-bedc-4d65-892f-1625254d4322",
+            "id": "334f56e7-5807-4221-8341-fcccc67f5775",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
