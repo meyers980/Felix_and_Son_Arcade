@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "756a2a73-2eec-49a0-bd1c-9528e0cdb124",
+            "Value": {
+                "id": "4fcebe97-58e8-4b7a-99c0-a3147b2332a1",
+                "resourcePath": "scripts\\col_playertoenemy\\col_playertoenemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "796b66f1-d8ba-406e-96f7-1a5d98a77605",
             "Value": {
                 "id": "05763703-bd3f-466d-ba47-59b253a18b22",
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "e1d67f8a-52e3-47f1-ad51-9006e005ac4c",
+            "Value": {
+                "id": "98a00ffc-df39-4a21-8027-169b39e494b4",
+                "resourcePath": "sprites\\s_rat_stun\\s_rat_stun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ec771e0d-287b-4c83-bb77-4dab508eb30c",
             "Value": {
                 "id": "e2780e91-444f-49af-847a-8d7c8d6b77f6",
@@ -468,6 +484,7 @@
         "1a30f8e6-9edd-4f51-b6a9-b6adbb244f2c",
         "6bdf7b36-c5cd-4653-a82c-26a75ae66e35",
         "bde851bb-a417-49b9-8e75-9c9237588fc8",
+        "756a2a73-2eec-49a0-bd1c-9528e0cdb124",
         "87c2e2e0-dd28-4f14-8f86-d2b2790f9eee",
         "dfaf7faa-5bbe-4e24-8536-c9ca15970919",
         "1a7cfed0-e4ee-44a8-b088-bde02d29e7aa",

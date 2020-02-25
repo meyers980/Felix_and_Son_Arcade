@@ -138,6 +138,20 @@
             "value": "FelixSr_Sprite_Air",
             "varName": "spr_air",
             "varType": 0
+        },
+        {
+            "id": "348cc2d4-7063-473f-8b63-680f93fa3589",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_rat_stun",
+            "varName": "spr_stun",
+            "varType": 0
         }
     ],
     "solid": false,
