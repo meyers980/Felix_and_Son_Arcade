@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "04bb0e2f-c2c2-4599-8ec3-f1bb3826b909",
+            "Value": {
+                "id": "b64c7628-bc17-483c-b436-3b9ed2aa7527",
+                "resourcePath": "sprites\\s_pigeon_stun\\s_pigeon_stun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0af12bfc-c607-48f7-b456-ff9157a1534c",
             "Value": {
                 "id": "115fae5a-7e9b-4aeb-ae2c-27a76c6912a9",
@@ -108,6 +116,14 @@
                 "id": "e4ab9632-3f9a-48a3-9fbb-6be2287d7f55",
                 "resourcePath": "scripts\\check_ground\\check_ground.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2a436314-b3e7-4f73-a2a9-d27958561cb9",
+            "Value": {
+                "id": "8d9071d2-07f1-48bb-a560-3cff604c7f4e",
+                "resourcePath": "sprites\\s_pigeon_walk\\s_pigeon_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,6 +207,14 @@
             }
         },
         {
+            "Key": "4bd82f81-2d7e-4e18-ac83-e401df119a82",
+            "Value": {
+                "id": "5f71d90e-caf9-46a2-a087-3b529e5a2320",
+                "resourcePath": "sprites\\s_pigeon_dead\\s_pigeon_dead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "513922d1-7981-4ec0-affe-400dd2fc9208",
             "Value": {
                 "id": "f6d7de31-a502-4e55-90ab-f35891782134",
@@ -228,6 +252,14 @@
                 "id": "2b3af675-d0b8-45f5-9d99-3ad2b4777576",
                 "resourcePath": "sprites\\s_coin\\s_coin.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f6ea25e-4556-4c36-ae2e-850d83d6b1bf",
+            "Value": {
+                "id": "372b9853-70f8-404b-827b-a2e705739ba0",
+                "resourcePath": "objects\\o_pigeon\\o_pigeon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -324,6 +356,14 @@
                 "id": "ecd782a1-8b47-4126-a7e0-e27de5571628",
                 "resourcePath": "views\\9c93c273-04f9-4287-8a9d-76c2c734fe77.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a3ecc1d7-2346-4a7e-8c29-8744e326b97d",
+            "Value": {
+                "id": "37232515-6cc6-4d32-9d0a-1063b2928184",
+                "resourcePath": "sprites\\s_pigeon_idle\\s_pigeon_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -60,6 +60,13 @@ if(!(other.state == es.DEAD))
 					/// @DnDArgument : "var" "hsp"
 					hsp = 0;
 				
+					/// @DnDAction : YoYo Games.Instances.Set_Alarm
+					/// @DnDVersion : 1
+					/// @DnDHash : 578BF251
+					/// @DnDParent : 25CFC537
+					/// @DnDArgument : "steps" "300"
+					alarm_set(0, 300);
+				
 					/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1
 					/// @DnDHash : 6D51B66B
