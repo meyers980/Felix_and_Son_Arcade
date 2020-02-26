@@ -527,11 +527,27 @@
             }
         },
         {
+            "Key": "f791550a-ba49-4e7c-b6e7-be16d45af5a3",
+            "Value": {
+                "id": "e498bf41-df0a-4642-b578-a9ae5e5d438c",
+                "resourcePath": "scripts\\col_teleport\\col_teleport.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fcd07bd8-599e-4ab2-a89c-9478d07ac126",
             "Value": {
                 "id": "c6782067-7a35-4917-9fe4-c0eb78fab528",
                 "resourcePath": "sprites\\s_rat_dead\\s_rat_dead.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fcfdb2ae-99fd-4869-8f72-a1d86ca2dfd2",
+            "Value": {
+                "id": "ab500fd9-597c-486e-96e6-c1347dcce7bc",
+                "resourcePath": "objects\\teleporter\\teleporter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -555,7 +571,8 @@
         "270fcf56-28f2-45c9-96b4-460da7154097",
         "2c562733-fa0d-4dc4-b088-1fc5bd14a27d",
         "54c1ad95-819a-4ba1-8c60-0fa44e36a64a",
-        "8edb6c6a-3a8f-4a2d-b3c9-e9da43227abc"
+        "8edb6c6a-3a8f-4a2d-b3c9-e9da43227abc",
+        "f791550a-ba49-4e7c-b6e7-be16d45af5a3"
     ],
     "tutorial": ""
 }
