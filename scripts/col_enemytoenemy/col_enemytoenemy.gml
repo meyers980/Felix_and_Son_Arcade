@@ -26,6 +26,27 @@ if(state == es.DEAD)
 			instance_create_layer(x + 0, y + 0, "Instances", o_explode); 
 		}
 	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 24D6B2BA
+		/// @DnDParent : 7D23499B
+		/// @DnDArgument : "expr" "5"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "multiplier"
+		multiplier += 5;
+	
+		/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+		/// @DnDVersion : 1
+		/// @DnDHash : 045460EC
+		/// @DnDApplyTo : attacker
+		/// @DnDParent : 7D23499B
+		/// @DnDArgument : "score" "100 * multiplier"
+		/// @DnDArgument : "score_relative" "1"
+		with(attacker) {
+		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
+		__dnd_score += real(100 * multiplier);
+		}
+	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 6428783F

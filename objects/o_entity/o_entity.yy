@@ -148,6 +148,20 @@
             "value": "FelixSr_Sprite_Main",
             "varName": "spr_dead",
             "varType": 0
+        },
+        {
+            "id": "2a971f4c-25d8-4d7e-abf8-dc83cce42a53",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "multiplier",
+            "varType": 0
         }
     ],
     "solid": false,
