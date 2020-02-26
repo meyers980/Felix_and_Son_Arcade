@@ -8,11 +8,15 @@ if(global.coins > 0)
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 61B5F751
+	/// @DnDInput : 2
 	/// @DnDParent : 43CF9E27
 	/// @DnDArgument : "value" "-1"
 	/// @DnDArgument : "value_relative" "1"
+	/// @DnDArgument : "value_1" "1"
 	/// @DnDArgument : "var" "coins"
+	/// @DnDArgument : "var_1" "numberofplayers"
 	global.coins += -1;
+	global.numberofplayers = 1;
 
 	/// @DnDAction : YoYo Games.Rooms.Next_Room
 	/// @DnDVersion : 1

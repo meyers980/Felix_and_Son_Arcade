@@ -7,3 +7,12 @@
 /// @DnDArgument : "sprite" "sprite_index"
 /// @DnDArgument : "frame" "image_index"
 draw_sprite_ext(sprite_index, image_index, x + 0, y + 0, facing, 1, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 7615B305
+/// @DnDArgument : "x" "5"
+/// @DnDArgument : "y" "5"
+/// @DnDArgument : "caption" ""Sr. ""
+/// @DnDArgument : "var" "score"
+draw_text(5, 5, string("Sr. ") + string(score));
