@@ -31,12 +31,21 @@ if(state == es.DEAD)
 		/// @DnDHash : 045460EC
 		/// @DnDApplyTo : attacker
 		/// @DnDParent : 7D23499B
-		/// @DnDArgument : "score" "100"
+		/// @DnDArgument : "score" "100 * other.multiplier"
 		/// @DnDArgument : "score_relative" "1"
 		with(attacker) {
 		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-		__dnd_score += real(100);
+		__dnd_score += real(100 * other.multiplier);
 		}
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0E4042E9
+		/// @DnDParent : 7D23499B
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "multiplier"
+		multiplier += 1;
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1

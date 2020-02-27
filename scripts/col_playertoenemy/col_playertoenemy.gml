@@ -64,8 +64,8 @@ if(!(other.state == es.DEAD))
 					/// @DnDVersion : 1
 					/// @DnDHash : 578BF251
 					/// @DnDParent : 25CFC537
-					/// @DnDArgument : "steps" "300"
-					alarm_set(0, 300);
+					/// @DnDArgument : "steps" "360"
+					alarm_set(0, 360);
 				
 					/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1

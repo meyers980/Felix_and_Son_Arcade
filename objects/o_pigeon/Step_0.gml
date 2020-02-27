@@ -101,9 +101,9 @@ switch(l1DDFA5C2_0)
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 4C4F9C83
+			/// @DnDDisabled : 1
 			/// @DnDParent : 3A3E0384
 			/// @DnDArgument : "var" "image_speed"
-			image_speed = 0;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
