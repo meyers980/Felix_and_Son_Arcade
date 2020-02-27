@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "1fc01108-c24f-4c35-a634-42cec0cbe891",
-            "Value": {
-                "id": "cb26f0a4-96d2-4853-8c1e-c305e1b5e327",
-                "resourcePath": "sprites\\level_layout\\level_layout.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "270fcf56-28f2-45c9-96b4-460da7154097",
             "Value": {
                 "id": "e4ab9632-3f9a-48a3-9fbb-6be2287d7f55",
