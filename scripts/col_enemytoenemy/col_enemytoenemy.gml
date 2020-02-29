@@ -38,6 +38,14 @@ if(state == es.DEAD)
 		__dnd_score += real(100 * other.multiplier);
 		}
 	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 6F337024
+		/// @DnDParent : 7D23499B
+		/// @DnDArgument : "script" "aud_enemy_hit"
+		/// @DnDSaveInfo : "script" "046d72dd-5fff-4ef2-9208-d001a018941c"
+		script_execute(aud_enemy_hit);
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 0E4042E9

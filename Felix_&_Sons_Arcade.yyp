@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "046d72dd-5fff-4ef2-9208-d001a018941c",
+            "Value": {
+                "id": "9b95024a-12ce-439f-a851-4cdc5151e25f",
+                "resourcePath": "scripts\\aud_enemy_hit\\aud_enemy_hit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "04bb0e2f-c2c2-4599-8ec3-f1bb3826b909",
             "Value": {
                 "id": "b64c7628-bc17-483c-b436-3b9ed2aa7527",
@@ -119,11 +127,27 @@
             }
         },
         {
+            "Key": "2942820c-4670-42c8-ae5f-d093da031cb1",
+            "Value": {
+                "id": "cf15a516-2db4-41cb-8e16-8d8436859bf5",
+                "resourcePath": "sounds\\Destroy_5\\Destroy_5.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2a436314-b3e7-4f73-a2a9-d27958561cb9",
             "Value": {
                 "id": "8d9071d2-07f1-48bb-a560-3cff604c7f4e",
                 "resourcePath": "sprites\\s_pigeon_walk\\s_pigeon_walk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2bfb7607-fd47-48b6-b7e1-ad663ee09a44",
+            "Value": {
+                "id": "254e692e-a60f-4811-8151-ee7b7c7def04",
+                "resourcePath": "sounds\\Destroy_3\\Destroy_3.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -287,11 +311,27 @@
             }
         },
         {
+            "Key": "70e3eed7-772a-412e-b30f-4f6593b1d700",
+            "Value": {
+                "id": "f05f5db7-01ec-42e0-84e1-1033cd9d4686",
+                "resourcePath": "sounds\\Destroy_1\\Destroy_1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7202ef53-4846-4e88-8083-1b184107415e",
             "Value": {
                 "id": "fe863c17-1884-434e-9feb-7c535d21fc1b",
                 "resourcePath": "sprites\\s_explode\\s_explode.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "72a74c5c-8359-4d00-8bb2-9fa1e7b2e738",
+            "Value": {
+                "id": "953829e7-79ad-45f6-9234-eafaa3e8a3d2",
+                "resourcePath": "sounds\\Destroy_2\\Destroy_2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -343,6 +383,14 @@
             }
         },
         {
+            "Key": "9628a33e-fce8-49c4-b9f0-a085dffb5a7c",
+            "Value": {
+                "id": "f3f0e16f-e296-4ba0-966d-5ddd85db69fe",
+                "resourcePath": "scripts\\aud_player_hit\\aud_player_hit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "981b56e0-c9e8-4190-a975-4c1f476ebc36",
             "Value": {
                 "id": "6a0c23ae-9af0-49f0-af1e-d373834137e5",
@@ -356,6 +404,14 @@
                 "id": "ecd782a1-8b47-4126-a7e0-e27de5571628",
                 "resourcePath": "views\\9c93c273-04f9-4287-8a9d-76c2c734fe77.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9d12d2bf-781d-4e0b-b7c1-df024d74ca65",
+            "Value": {
+                "id": "7f24287f-d538-4585-8b70-a72da049bee3",
+                "resourcePath": "sounds\\Destroy_6\\Destroy_6.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -423,6 +479,14 @@
             }
         },
         {
+            "Key": "c3986c02-f909-40e0-9fe9-ebd57f5d8b53",
+            "Value": {
+                "id": "f1fe9bda-11e7-47aa-9be0-81f01a696914",
+                "resourcePath": "sounds\\Destroy_4\\Destroy_4.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c8c28234-5991-46d4-8834-e0af6601eb9d",
             "Value": {
                 "id": "e68e093a-c1a3-426e-a3bd-cf2fa1920cf0",
@@ -444,6 +508,14 @@
                 "id": "4bdeb833-9d58-436b-9517-bd7be4ac9d53",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cca2aa11-2d3c-4cf8-bf06-57e73bd1cf69",
+            "Value": {
+                "id": "5fbae132-6c87-4a89-9b00-cbadc1adea13",
+                "resourcePath": "views\\cca2aa11-2d3c-4cf8-bf06-57e73bd1cf69.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -580,7 +652,9 @@
         "2c562733-fa0d-4dc4-b088-1fc5bd14a27d",
         "54c1ad95-819a-4ba1-8c60-0fa44e36a64a",
         "8edb6c6a-3a8f-4a2d-b3c9-e9da43227abc",
-        "f791550a-ba49-4e7c-b6e7-be16d45af5a3"
+        "f791550a-ba49-4e7c-b6e7-be16d45af5a3",
+        "046d72dd-5fff-4ef2-9208-d001a018941c",
+        "9628a33e-fce8-49c4-b9f0-a085dffb5a7c"
     ],
     "tutorial": ""
 }
