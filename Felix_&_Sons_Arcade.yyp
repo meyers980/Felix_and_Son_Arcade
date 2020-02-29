@@ -119,6 +119,22 @@
             }
         },
         {
+            "Key": "1e568b67-a3e4-44c8-97ec-10f926bdc28e",
+            "Value": {
+                "id": "cb09988f-5863-4421-aace-a533c8d0f803",
+                "resourcePath": "scripts\\check_lives\\check_lives.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "26bda679-2b11-45dc-8471-b7dc9e2c8a41",
+            "Value": {
+                "id": "426dffb5-dc28-416f-abd5-8c51d994dba4",
+                "resourcePath": "sounds\\Player_Damage\\Player_Damage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "270fcf56-28f2-45c9-96b4-460da7154097",
             "Value": {
                 "id": "e4ab9632-3f9a-48a3-9fbb-6be2287d7f55",
@@ -188,6 +204,14 @@
                 "id": "7d5aec59-e8d9-406e-9d0a-6a21fac9463f",
                 "resourcePath": "rooms\\start_room\\start_room.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3a71cf7d-26d9-46df-99dc-a4f23199ffb9",
+            "Value": {
+                "id": "519d4ea8-b1ff-49ab-b576-38652a8e828b",
+                "resourcePath": "sprites\\FelixSr_Sprite_Dead\\FelixSr_Sprite_Dead.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -575,6 +599,14 @@
             }
         },
         {
+            "Key": "cee170fe-e265-4a87-bb68-4d78b6a1a1ab",
+            "Value": {
+                "id": "fade14b2-36a6-4810-a66d-74360873e1fa",
+                "resourcePath": "scripts\\check_air_index\\check_air_index.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d0213a01-6aae-4e43-a66f-734d9aac8f12",
             "Value": {
                 "id": "86431ff8-1c7a-42b8-aa72-a5f9e87fce36",
@@ -596,6 +628,14 @@
                 "id": "e7a15f6d-d5c9-4be8-a818-5868c6191e28",
                 "resourcePath": "views\\d37a7ee1-1ec8-4f8c-a49a-af1f8115c447.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d827eab7-2950-4d68-bb93-30e73c576336",
+            "Value": {
+                "id": "a5ca7c7a-648f-43fd-be72-60284f2ca6bd",
+                "resourcePath": "sounds\\Player_Teleport\\Player_Teleport.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -710,7 +750,9 @@
         "8edb6c6a-3a8f-4a2d-b3c9-e9da43227abc",
         "f791550a-ba49-4e7c-b6e7-be16d45af5a3",
         "046d72dd-5fff-4ef2-9208-d001a018941c",
-        "9628a33e-fce8-49c4-b9f0-a085dffb5a7c"
+        "9628a33e-fce8-49c4-b9f0-a085dffb5a7c",
+        "cee170fe-e265-4a87-bb68-4d78b6a1a1ab",
+        "1e568b67-a3e4-44c8-97ec-10f926bdc28e"
     ],
     "tutorial": ""
 }
