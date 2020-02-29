@@ -18,6 +18,14 @@ if(global.coins > 0)
 	global.coins += -1;
 	global.numberofplayers = 1;
 
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 2D299DAE
+	/// @DnDParent : 43CF9E27
+	/// @DnDArgument : "soundid" "Game_Start_Sound"
+	/// @DnDSaveInfo : "soundid" "609c5a49-0232-4af3-be4d-36f1bab8e6b3"
+	audio_play_sound(Game_Start_Sound, 0, 0);
+
 	/// @DnDAction : YoYo Games.Rooms.Next_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 274A20E9
