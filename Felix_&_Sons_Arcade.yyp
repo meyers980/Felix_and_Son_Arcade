@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "5ed9e3a2-ab6f-46d6-b09c-8f63cf65343c",
+            "Value": {
+                "id": "e2af36b5-364f-4dc7-89af-47b33a7bc1e0",
+                "resourcePath": "sounds\\Enemy_Cage\\Enemy_Cage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5f6ea25e-4556-4c36-ae2e-850d83d6b1bf",
             "Value": {
                 "id": "372b9853-70f8-404b-827b-a2e705739ba0",
@@ -300,6 +308,14 @@
                 "id": "4fc83ecf-c8e9-4866-a387-642809f1cd78",
                 "resourcePath": "views\\6440afce-f610-4bca-9daa-113dd0311c50.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "69931273-cd5b-4a90-a6f6-8f032df3d376",
+            "Value": {
+                "id": "f5fd10f7-a1bd-4153-8973-6363489c2e54",
+                "resourcePath": "sounds\\Cage_Hit\\Cage_Hit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -348,6 +364,14 @@
                 "id": "05763703-bd3f-466d-ba47-59b253a18b22",
                 "resourcePath": "sprites\\s_solid\\s_solid.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "83063343-c12e-40ff-85be-86896c7f090b",
+            "Value": {
+                "id": "614749a8-cc90-4c7e-93b5-5551c7bff4f7",
+                "resourcePath": "sounds\\Player_Walk\\Player_Walk.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -439,6 +463,14 @@
             }
         },
         {
+            "Key": "abc03a26-b3fe-4cbd-a299-17215e218f1d",
+            "Value": {
+                "id": "8ce1ac78-31c9-4b5d-a720-e2abf0eca5a3",
+                "resourcePath": "views\\abc03a26-b3fe-4cbd-a299-17215e218f1d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b733bf9a-b116-4277-ba62-477690deef8b",
             "Value": {
                 "id": "43d20b28-eebe-4f1c-afa2-7cf88454a48b",
@@ -476,6 +508,14 @@
                 "id": "1147c983-2505-4b31-a14d-6da06d8bf8e0",
                 "resourcePath": "scripts\\collission\\collission.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c38a6a47-bdca-4ba5-9ad3-29c1c209b4fd",
+            "Value": {
+                "id": "21ca1fe6-9db1-4018-9cf9-08dfa3aa2e17",
+                "resourcePath": "sounds\\Player_Jump\\Player_Jump.yy",
+                "resourceType": "GMSound"
             }
         },
         {
