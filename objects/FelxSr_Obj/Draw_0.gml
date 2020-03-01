@@ -13,9 +13,9 @@ draw_sprite_ext(sprite_index, image_index, x + 0, y + 0, facing, 1, 0, $FFFFFFFF
 /// @DnDHash : 42EC1502
 /// @DnDArgument : "x" "5"
 /// @DnDArgument : "y" "5"
-/// @DnDArgument : "caption" ""Sr. ""
+/// @DnDArgument : "caption" ""Felix Sr. ""
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-draw_text(5, 5, string("Sr. ") + string(__dnd_score));
+draw_text(5, 5, string("Felix Sr. ") + string(__dnd_score));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Lives
 /// @DnDVersion : 1

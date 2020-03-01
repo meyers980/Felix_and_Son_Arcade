@@ -38,6 +38,27 @@ if(state == es.DEAD)
 		__dnd_score += real(100 * other.multiplier);
 		}
 	
+		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 3ECB9BB8
+		/// @DnDParent : 7D23499B
+		/// @DnDArgument : "value" "multiplier"
+		/// @DnDArgument : "var" "multiplier"
+		global.multiplier = multiplier;
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 3737E96D
+		/// @DnDApplyTo : other
+		/// @DnDParent : 7D23499B
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "score_display"
+		/// @DnDSaveInfo : "objectid" "ff6d0803-e2ab-4ff4-aa67-877cecda4e97"
+		with(other) {
+			instance_create_layer(x + 0, y + 0, "Instances", score_display); 
+		}
+	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 6F337024

@@ -148,6 +148,14 @@ if(!(state == ps.DEAD))
 					/// @DnDArgument : "expr" "ps.KNOCKBACK"
 					/// @DnDArgument : "var" "state"
 					state = ps.KNOCKBACK;
+				
+					/// @DnDAction : YoYo Games.Instances.Set_Alarm
+					/// @DnDVersion : 1
+					/// @DnDHash : 264B48EE
+					/// @DnDParent : 032DA198
+					/// @DnDArgument : "steps" "15"
+					/// @DnDArgument : "alarm" "1"
+					alarm_set(1, 15);
 				}
 			}
 		}
