@@ -8,14 +8,31 @@
 /// @DnDArgument : "frame" "image_index"
 draw_sprite_ext(sprite_index, image_index, x + 0, y + 0, facing, 1, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
+/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 /// @DnDVersion : 1
-/// @DnDHash : 42EC1502
+/// @DnDHash : 20D16686
 /// @DnDArgument : "x" "5"
 /// @DnDArgument : "y" "5"
-/// @DnDArgument : "caption" ""Felix Sr. ""
+/// @DnDArgument : "sprite" "s_FelixSr_Text"
+/// @DnDSaveInfo : "sprite" "b3346892-8479-4663-8433-c1c4c823f65a"
+draw_sprite(s_FelixSr_Text, 0, 5, 5);
+
+/// @DnDAction : YoYo Games.Instance Variables.Get_Score
+/// @DnDVersion : 1
+/// @DnDHash : 6DB99997
+/// @DnDArgument : "var" "tempscore"
+/// @DnDArgument : "var_temp" "1"
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-draw_text(5, 5, string("Felix Sr. ") + string(__dnd_score));
+var tempscore = __dnd_score;
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 05F06283
+/// @DnDArgument : "x" "91"
+/// @DnDArgument : "y" "5"
+/// @DnDArgument : "caption" ""
+/// @DnDArgument : "var" "string_format(tempscore, 6, 0)"
+draw_text(91, 5,  + string(string_format(tempscore, 6, 0)));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Lives
 /// @DnDVersion : 1
