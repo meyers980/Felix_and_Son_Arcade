@@ -727,6 +727,14 @@
             }
         },
         {
+            "Key": "e1b11050-0f75-4c05-9ec8-43ff276d01b5",
+            "Value": {
+                "id": "e6ed475b-c2a3-44a1-ad0d-2c8557044631",
+                "resourcePath": "scripts\\outside_room_enemy\\outside_room_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e1d67f8a-52e3-47f1-ad51-9006e005ac4c",
             "Value": {
                 "id": "98a00ffc-df39-4a21-8027-169b39e494b4",
@@ -772,6 +780,14 @@
                 "id": "1e87ac75-42f0-4859-8d4d-624c3f516a42",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f55e5242-6474-4ec5-b01a-ec76df599cda",
+            "Value": {
+                "id": "eaa92d94-1b8f-4e40-9cad-99e5cb960234",
+                "resourcePath": "sounds\\Enemy_Outside_Room\\Enemy_Outside_Room.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -848,7 +864,8 @@
         "046d72dd-5fff-4ef2-9208-d001a018941c",
         "9628a33e-fce8-49c4-b9f0-a085dffb5a7c",
         "cee170fe-e265-4a87-bb68-4d78b6a1a1ab",
-        "1e568b67-a3e4-44c8-97ec-10f926bdc28e"
+        "1e568b67-a3e4-44c8-97ec-10f926bdc28e",
+        "e1b11050-0f75-4c05-9ec8-43ff276d01b5"
     ],
     "tutorial": ""
 }
