@@ -39,6 +39,13 @@ var pigeon_count = instance_number(o_pigeon);
 /// @DnDArgument : "expr" "list_count + rat_count + fox_count + pigeon_count = 0"
 if(list_count + rat_count + fox_count + pigeon_count = 0)
 {
+	/// @DnDAction : YoYo Games.Data Structures.DS_Clear
+	/// @DnDVersion : 1
+	/// @DnDHash : 2A07BFC2
+	/// @DnDParent : 6AFB9C4E
+	/// @DnDArgument : "var" "enemy_list"
+	ds_list_clear(enemy_list);
+
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 7B46B475
