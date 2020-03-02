@@ -7,12 +7,14 @@ enemy_list = ds_list_create();
 /// @DnDAction : YoYo Games.Data Structures.List_Add
 /// @DnDVersion : 1
 /// @DnDHash : 51A2CE48
-/// @DnDInput : 3
+/// @DnDInput : 5
 /// @DnDArgument : "var" "enemy_list"
 /// @DnDArgument : "value" ""rat""
 /// @DnDArgument : "value_1" ""rat""
 /// @DnDArgument : "value_2" ""rat""
-ds_list_add(enemy_list, "rat", "rat", "rat");
+/// @DnDArgument : "value_3" ""fox""
+/// @DnDArgument : "value_4" ""pigeon""
+ds_list_add(enemy_list, "rat", "rat", "rat", "fox", "pigeon");
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
