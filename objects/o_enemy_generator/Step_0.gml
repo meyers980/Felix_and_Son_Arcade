@@ -46,11 +46,20 @@ if(list_count + rat_count + fox_count + pigeon_count = 0)
 	/// @DnDArgument : "var" "enemy_list"
 	ds_list_clear(enemy_list);
 
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7D7970F2
+	/// @DnDParent : 6AFB9C4E
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "global.level"
+	global.level += 1;
+
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 7B46B475
 	/// @DnDParent : 6AFB9C4E
-	/// @DnDArgument : "room" "start_room"
-	/// @DnDSaveInfo : "room" "374d046e-9839-4889-bbde-6e5fb0ee2ccb"
-	room_goto(start_room);
+	/// @DnDArgument : "room" "room0"
+	/// @DnDSaveInfo : "room" "c8c28234-5991-46d4-8834-e0af6601eb9d"
+	room_goto(room0);
 }
