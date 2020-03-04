@@ -67,3 +67,23 @@ if(global.level > 5)
 	/// @DnDArgument : "value" ""fox""
 	ds_list_add(enemy_list, "fox");
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6AA09E64
+/// @DnDArgument : "var" "global.level"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "6"
+if(global.level > 6)
+{
+	/// @DnDAction : YoYo Games.Data Structures.List_Add
+	/// @DnDVersion : 1
+	/// @DnDHash : 4B64441C
+	/// @DnDInput : 3
+	/// @DnDParent : 6AA09E64
+	/// @DnDArgument : "var" "enemy_list"
+	/// @DnDArgument : "value" ""rat""
+	/// @DnDArgument : "value_1" ""rat""
+	/// @DnDArgument : "value_2" ""rat""
+	ds_list_add(enemy_list, "rat", "rat", "rat");
+}

@@ -1,48 +1,28 @@
 {
-    "id": "50f8068c-d00c-4caa-b7ff-41a40b585285",
+    "id": "578cfeb3-e352-4831-9972-1c8415675d35",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_enemy_generator",
+    "name": "fire_generator",
     "eventList": [
         {
-            "id": "f4608bac-10d1-420b-82db-1e68cfc61ac5",
+            "id": "6de7dda2-626e-4ea6-9edf-f8b64a831d2f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "50f8068c-d00c-4caa-b7ff-41a40b585285"
+            "m_owner": "578cfeb3-e352-4831-9972-1c8415675d35"
         },
         {
-            "id": "1989c043-1b0e-415b-8bd7-704009d3d946",
+            "id": "d50243b4-3dac-49a1-bda8-fb0b59a717e2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
-            "m_owner": "50f8068c-d00c-4caa-b7ff-41a40b585285"
-        },
-        {
-            "id": "f21a50fe-ff42-4be6-a01f-d08e4ecc820a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "50f8068c-d00c-4caa-b7ff-41a40b585285"
-        },
-        {
-            "id": "ce3697c3-8496-4586-ac82-24aa4e3b76ce",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "50f8068c-d00c-4caa-b7ff-41a40b585285"
+            "m_owner": "578cfeb3-e352-4831-9972-1c8415675d35"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
