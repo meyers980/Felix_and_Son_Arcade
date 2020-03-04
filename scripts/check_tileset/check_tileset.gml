@@ -1,14 +1,13 @@
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
-/// @DnDHash : 09D50009
-/// @DnDArgument : "var" "global.level"
-/// @DnDArgument : "value" "1"
-if(global.level == 1)
+/// @DnDHash : 1B9F7152
+/// @DnDArgument : "expr" "global.level == 1 || global.level == 3 || global.level == 5"
+if(global.level == 1 || global.level == 3 || global.level == 5)
 {
 	/// @DnDAction : YoYo Games.Tiles.Tile_Set_TileSet
 	/// @DnDVersion : 1
 	/// @DnDHash : 062F0108
-	/// @DnDParent : 09D50009
+	/// @DnDParent : 1B9F7152
 	/// @DnDArgument : "layername" ""Tiles_Top""
 	/// @DnDArgument : "tileset" "main_tiles"
 	/// @DnDSaveInfo : "tileset" "d0213a01-6aae-4e43-a66f-734d9aac8f12"
@@ -18,7 +17,7 @@ if(global.level == 1)
 	/// @DnDAction : YoYo Games.Tiles.Tile_Set_TileSet
 	/// @DnDVersion : 1
 	/// @DnDHash : 7FA20F22
-	/// @DnDParent : 09D50009
+	/// @DnDParent : 1B9F7152
 	/// @DnDArgument : "layername" ""Tiles_mid""
 	/// @DnDArgument : "tileset" "main_tiles"
 	/// @DnDSaveInfo : "tileset" "d0213a01-6aae-4e43-a66f-734d9aac8f12"
