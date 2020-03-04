@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "e7d838d8-e76e-4290-8e76-b15acf2ce705",
+            "Value": {
+                "id": "3b55c345-dd51-4e88-a22b-ae7492b15d63",
+                "resourcePath": "sprites\\FelixJr_Sprite_Dead\\FelixJr_Sprite_Dead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ec771e0d-287b-4c83-bb77-4dab508eb30c",
             "Value": {
                 "id": "e2780e91-444f-49af-847a-8d7c8d6b77f6",

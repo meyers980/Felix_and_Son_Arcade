@@ -106,7 +106,16 @@
         }
     ],
     "maskSpriteId": "513922d1-7981-4ec0-affe-400dd2fc9208",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "0b71912d-b7cf-42aa-91fe-583a9a08d54d",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "de2f53c7-6671-4edf-ac08-bba4883cc0d9",
+            "propertyId": "7bc29e80-5187-45d5-aec0-b322d156b06e",
+            "value": "FelixJr_Sprite_Dead"
+        }
+    ],
     "parentObjectId": "de2f53c7-6671-4edf-ac08-bba4883cc0d9",
     "persistent": true,
     "physicsAngularDamping": 0.1,
