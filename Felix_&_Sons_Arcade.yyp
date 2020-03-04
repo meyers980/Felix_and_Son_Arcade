@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "6588b9ee-59e0-46ef-bbae-9892f760abcd",
+            "Value": {
+                "id": "06af881f-3fc8-4811-ba78-28640c191279",
+                "resourcePath": "scripts\\check_pigeon_jump\\check_pigeon_jump.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "69931273-cd5b-4a90-a6f6-8f032df3d376",
             "Value": {
                 "id": "f5fd10f7-a1bd-4153-8973-6363489c2e54",
@@ -925,7 +933,8 @@
         "8261f772-5c2a-4fe1-8074-49bb36fee349",
         "4e6a1dd8-b501-4313-a9b6-6f79797ce6f2",
         "2a084794-7531-4ba4-92b5-b97fdf9c1971",
-        "a1fc0c5c-1ec0-4f03-a6c7-30acf604930b"
+        "a1fc0c5c-1ec0-4f03-a6c7-30acf604930b",
+        "6588b9ee-59e0-46ef-bbae-9892f760abcd"
     ],
     "tutorial": ""
 }

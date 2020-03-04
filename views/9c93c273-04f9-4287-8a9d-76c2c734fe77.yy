@@ -25,7 +25,8 @@
         "8261f772-5c2a-4fe1-8074-49bb36fee349",
         "4e6a1dd8-b501-4313-a9b6-6f79797ce6f2",
         "2a084794-7531-4ba4-92b5-b97fdf9c1971",
-        "a1fc0c5c-1ec0-4f03-a6c7-30acf604930b"
+        "a1fc0c5c-1ec0-4f03-a6c7-30acf604930b",
+        "6588b9ee-59e0-46ef-bbae-9892f760abcd"
     ],
     "filterType": "GMScript",
     "folderName": "scripts",
