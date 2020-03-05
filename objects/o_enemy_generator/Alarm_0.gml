@@ -1,9 +1,17 @@
+/// @DnDAction : YoYo Games.Data Structures.List_Count
+/// @DnDVersion : 1
+/// @DnDHash : 7E9AE00F
+/// @DnDArgument : "assignee" "list_length"
+/// @DnDArgument : "var" "enemy_list"
+list_length = ds_list_size(enemy_list);
+
 /// @DnDAction : YoYo Games.Data Structures.List_Get_At
 /// @DnDVersion : 1
 /// @DnDHash : 6DADF012
 /// @DnDArgument : "assignee" "enemy_create"
 /// @DnDArgument : "var" "enemy_list"
-enemy_create = ds_list_find_value(enemy_list, 0);
+/// @DnDArgument : "index" "list_length - 1"
+enemy_create = ds_list_find_value(enemy_list, list_length - 1);
 
 /// @DnDAction : YoYo Games.Switch.Switch
 /// @DnDVersion : 1
@@ -149,14 +157,15 @@ switch(l1B64A611_0)
 /// @DnDVersion : 1
 /// @DnDHash : 7D4C9989
 /// @DnDArgument : "var" "enemy_list"
-if(ds_list_size(enemy_list) > 0)
-	ds_list_delete(enemy_list, 0);
+/// @DnDArgument : "index" "list_length - 1"
+if(ds_list_size(enemy_list) > list_length - 1)
+	ds_list_delete(enemy_list, list_length - 1);
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 11548DAF
-/// @DnDArgument : "steps" "360"
-alarm_set(0, 360);
+/// @DnDArgument : "steps" "120"
+alarm_set(0, 120);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
