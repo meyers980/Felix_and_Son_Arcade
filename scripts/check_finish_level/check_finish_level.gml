@@ -125,10 +125,12 @@ if(list_count + rat_count + fox_count + pigeon_count = 0)
 		y = 416;
 		}
 	
-		/// @DnDAction : YoYo Games.Rooms.Next_Room
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
-		/// @DnDHash : 74A82871
+		/// @DnDHash : 3E8E2597
 		/// @DnDParent : 7DE6E049
-		room_goto_next();
+		/// @DnDArgument : "room" "room0"
+		/// @DnDSaveInfo : "room" "c8c28234-5991-46d4-8834-e0af6601eb9d"
+		room_goto(room0);
 	}
 }

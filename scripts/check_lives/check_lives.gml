@@ -12,4 +12,12 @@ if(__dnd_lives <= 0)
 	/// @DnDArgument : "expr" "ps.DEAD"
 	/// @DnDArgument : "var" "state"
 	state = ps.DEAD;
+
+	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 7C29B66E
+	/// @DnDParent : 30B0335B
+	/// @DnDArgument : "script" "check_game_end"
+	/// @DnDSaveInfo : "script" "c9bf5ed1-8b67-44fe-9694-da09484038ad"
+	script_execute(check_game_end);
 }
