@@ -1,15 +1,14 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 7CD1445A
-/// @DnDArgument : "code" "highscore_clear();$(13_10)highscore_add("SAM", 100000);$(13_10)highscore_add("JKF", 90000);$(13_10)highscore_add("ECM", 75000);$(13_10)highscore_add("FFS", 50000);$(13_10)highscore_add("FFJ", 10000);$(13_10)highscore_add("DAD", 5000);$(13_10)highscore_add("USA", 4000);$(13_10)highscore_add("MOM", 3000);$(13_10)highscore_add("JJE", 2000);$(13_10)highscore_add("BOB", 100);"
-highscore_clear();
-highscore_add("SAM", 100000);
-highscore_add("JKF", 90000);
-highscore_add("ECM", 75000);
-highscore_add("FFS", 50000);
-highscore_add("FFJ", 10000);
-highscore_add("DAD", 5000);
-highscore_add("USA", 4000);
-highscore_add("MOM", 3000);
-highscore_add("JJE", 2000);
-highscore_add("BOB", 100);
+/// @DnDHash : 0B8B0520
+/// @DnDInput : 4
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "value_1" "1"
+/// @DnDArgument : "var" "srlives"
+/// @DnDArgument : "var_1" "jrlives"
+/// @DnDArgument : "var_2" "srscore"
+/// @DnDArgument : "var_3" "jrscore"
+global.srlives = 1;
+global.jrlives = 1;
+global.srscore = 0;
+global.jrscore = 0;

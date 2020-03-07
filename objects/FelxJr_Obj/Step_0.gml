@@ -316,14 +316,6 @@ switch(l45C10EE1_0)
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
-		/// @DnDHash : 2D12C974
-		/// @DnDParent : 172FE548
-		/// @DnDArgument : "script" "collission"
-		/// @DnDSaveInfo : "script" "bde851bb-a417-49b9-8e75-9c9237588fc8"
-		script_execute(collission);
-	
-		/// @DnDAction : YoYo Games.Common.Execute_Script
-		/// @DnDVersion : 1.1
 		/// @DnDHash : 0F3157DB
 		/// @DnDParent : 172FE548
 		/// @DnDArgument : "script" "anim"

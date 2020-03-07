@@ -1,16 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 011451FB
-/// @DnDInput : 4
-/// @DnDArgument : "var" "srlives"
-/// @DnDArgument : "var_1" "jrlives"
-/// @DnDArgument : "var_2" "srscore"
-/// @DnDArgument : "var_3" "jrscore"
-global.srlives = 0;
-global.jrlives = 0;
-global.srscore = 0;
-global.jrscore = 0;
-
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 3FE0B8DB
