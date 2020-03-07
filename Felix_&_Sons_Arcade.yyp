@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0d7efb86-9960-405d-b142-d9d2dc8d80e8",
+            "Value": {
+                "id": "c5c2e85f-59ae-4a27-8eaf-aeac5312fc08",
+                "resourcePath": "sounds\\Player_Dead\\Player_Dead.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0df7b16b-819c-49e2-b868-9f9fa67c2825",
             "Value": {
                 "id": "060bd21e-8cb9-43d2-8a1e-bb3e70417ce5",
