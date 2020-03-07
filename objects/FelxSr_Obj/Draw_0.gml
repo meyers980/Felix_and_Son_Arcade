@@ -38,13 +38,13 @@ draw_text(91, 5,  + string(string_format(tempscore, 6, 0)));
 /// @DnDVersion : 1
 /// @DnDHash : 1A94DDF5
 /// @DnDArgument : "x" "25"
-/// @DnDArgument : "y" "35"
+/// @DnDArgument : "y" "25"
 /// @DnDArgument : "sprite" "s_Sr_Lives"
 /// @DnDSaveInfo : "sprite" "0b7bb84a-ed64-468e-a061-a54d6e1d61fa"
 var l1A94DDF5_0 = sprite_get_width(s_Sr_Lives);
 var l1A94DDF5_1 = 0;
 if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 for(var l1A94DDF5_2 = __dnd_lives; l1A94DDF5_2 > 0; --l1A94DDF5_2) {
-	draw_sprite(s_Sr_Lives, 0, 25 + l1A94DDF5_1, 35);
+	draw_sprite(s_Sr_Lives, 0, 25 + l1A94DDF5_1, 25);
 	l1A94DDF5_1 += l1A94DDF5_0;
 }
