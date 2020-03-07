@@ -1,3 +1,18 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 27684710
+/// @DnDArgument : "var" "y"
+/// @DnDArgument : "op" "1"
+/// @DnDArgument : "value" "63"
+if(y < 63)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 18EF9DCD
+	/// @DnDParent : 27684710
+	instance_destroy();
+}
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3B4BBBE8
