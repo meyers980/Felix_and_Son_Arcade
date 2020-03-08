@@ -26,8 +26,8 @@ if(bird_jump < 5)
 		/// @DnDVersion : 1
 		/// @DnDHash : 330508AB
 		/// @DnDParent : 30DDAF74
-		/// @DnDArgument : "expr" "-3"
+		/// @DnDArgument : "expr" "-4"
 		/// @DnDArgument : "var" "vsp"
-		vsp = -3;
+		vsp = -4;
 	}
 }

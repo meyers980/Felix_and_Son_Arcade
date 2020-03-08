@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "775e2931-9700-486d-a36d-6917bcd7464a",
+            "Value": {
+                "id": "6de34724-dc88-42c1-80f9-792f7f4ab3ea",
+                "resourcePath": "sprites\\s_fastfox\\s_fastfox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "796b66f1-d8ba-406e-96f7-1a5d98a77605",
             "Value": {
                 "id": "05763703-bd3f-466d-ba47-59b253a18b22",

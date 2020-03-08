@@ -64,34 +64,41 @@ if(global.level == 3)
 /// @DnDVersion : 1
 /// @DnDHash : 198CF7F5
 /// @DnDArgument : "var" "global.level"
-/// @DnDArgument : "op" "2"
 /// @DnDArgument : "value" "4"
-if(global.level > 4)
+if(global.level == 4)
 {
 	/// @DnDAction : YoYo Games.Data Structures.List_Add
 	/// @DnDVersion : 1
 	/// @DnDHash : 14787096
+	/// @DnDInput : 6
 	/// @DnDParent : 198CF7F5
 	/// @DnDArgument : "var" "enemy_list"
-	/// @DnDArgument : "value" ""fox""
-	ds_list_add(enemy_list, "fox");
+	/// @DnDArgument : "value" ""pigeon""
+	/// @DnDArgument : "value_1" ""pigeon""
+	/// @DnDArgument : "value_2" ""rat""
+	/// @DnDArgument : "value_3" ""rat""
+	/// @DnDArgument : "value_4" ""pigeon""
+	/// @DnDArgument : "value_5" ""rat""
+	ds_list_add(enemy_list, "pigeon", "pigeon", "rat", "rat", "pigeon", "rat");
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 75BB1E07
 /// @DnDArgument : "var" "global.level"
-/// @DnDArgument : "op" "2"
 /// @DnDArgument : "value" "5"
-if(global.level > 5)
+if(global.level == 5)
 {
 	/// @DnDAction : YoYo Games.Data Structures.List_Add
 	/// @DnDVersion : 1
 	/// @DnDHash : 50B56F0A
+	/// @DnDInput : 3
 	/// @DnDParent : 75BB1E07
 	/// @DnDArgument : "var" "enemy_list"
 	/// @DnDArgument : "value" ""fox""
-	ds_list_add(enemy_list, "fox");
+	/// @DnDArgument : "value_1" ""fox""
+	/// @DnDArgument : "value_2" ""fox""
+	ds_list_add(enemy_list, "fox", "fox", "fox");
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -105,11 +112,15 @@ if(global.level > 6)
 	/// @DnDAction : YoYo Games.Data Structures.List_Add
 	/// @DnDVersion : 1
 	/// @DnDHash : 4B64441C
-	/// @DnDInput : 3
+	/// @DnDInput : 7
 	/// @DnDParent : 6AA09E64
 	/// @DnDArgument : "var" "enemy_list"
-	/// @DnDArgument : "value" ""rat""
-	/// @DnDArgument : "value_1" ""rat""
-	/// @DnDArgument : "value_2" ""rat""
-	ds_list_add(enemy_list, "rat", "rat", "rat");
+	/// @DnDArgument : "value" ""fox""
+	/// @DnDArgument : "value_1" ""fox""
+	/// @DnDArgument : "value_2" ""pigeon""
+	/// @DnDArgument : "value_3" ""pigeon""
+	/// @DnDArgument : "value_4" ""fox""
+	/// @DnDArgument : "value_5" ""rat""
+	/// @DnDArgument : "value_6" ""rat""
+	ds_list_add(enemy_list, "fox", "fox", "pigeon", "pigeon", "fox", "rat", "rat");
 }
