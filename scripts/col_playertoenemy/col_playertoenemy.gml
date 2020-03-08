@@ -125,6 +125,22 @@ if(!(state == ps.DEAD))
 					if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 					__dnd_lives += real(-1);
 				
+					/// @DnDAction : YoYo Games.Instance Variables.If_Lives
+					/// @DnDVersion : 1
+					/// @DnDHash : 1130CDA5
+					/// @DnDParent : 032DA198
+					/// @DnDArgument : "op" "1"
+					if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
+					if(__dnd_lives < 0)
+					{
+						/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+						/// @DnDVersion : 1
+						/// @DnDHash : 03B5A42E
+						/// @DnDParent : 1130CDA5
+						
+						__dnd_lives = real(0);
+					}
+				
 					/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1
 					/// @DnDHash : 4C5D660B
