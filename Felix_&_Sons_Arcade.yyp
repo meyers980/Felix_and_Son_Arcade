@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "4179b155-44bb-490c-88db-206b6f48a06a",
+            "Value": {
+                "id": "df76c172-51de-41cd-9fe8-a83ade134899",
+                "resourcePath": "sprites\\s_gameover\\s_gameover.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "42bd24df-fb56-4087-a0dc-f3739344f7c8",
             "Value": {
                 "id": "ffb802b7-d675-4a66-8d88-6a0bef66a69d",
@@ -700,6 +708,14 @@
                 "id": "37232515-6cc6-4d32-9d0a-1063b2928184",
                 "resourcePath": "sprites\\s_pigeon_idle\\s_pigeon_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a826c0f6-cb88-4ea5-90eb-0cbe42650d9a",
+            "Value": {
+                "id": "0b675d29-9583-4cdd-afc3-706ff608fef8",
+                "resourcePath": "objects\\o_gameover\\o_gameover.yy",
+                "resourceType": "GMObject"
             }
         },
         {
