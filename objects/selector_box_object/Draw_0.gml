@@ -67,9 +67,9 @@ draw_set_alpha(l5DCCF1A9_0 / $ff);
 /// @DnDHash : 31C4115A
 /// @DnDArgument : "x" "320"
 /// @DnDArgument : "y" "100"
-/// @DnDArgument : "caption" ""Your Score: ""
+/// @DnDArgument : "caption" ""Your Total Score: ""
 /// @DnDArgument : "var" "global.srscore + global.jrscore"
-draw_text(320, 100, string("Your Score: ") + string(global.srscore + global.jrscore));
+draw_text(320, 100, string("Your Total Score: ") + string(global.srscore + global.jrscore));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
