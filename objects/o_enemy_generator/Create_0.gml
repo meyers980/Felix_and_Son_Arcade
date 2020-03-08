@@ -11,15 +11,6 @@ spawnside = 1;
 /// @DnDArgument : "var" "enemy_list"
 enemy_list = ds_list_create();
 
-/// @DnDAction : YoYo Games.Data Structures.List_Add
-/// @DnDVersion : 1
-/// @DnDHash : 51A2CE48
-/// @DnDInput : 2
-/// @DnDArgument : "var" "enemy_list"
-/// @DnDArgument : "value" ""rat""
-/// @DnDArgument : "value_1" ""rat""
-ds_list_add(enemy_list, "rat", "rat");
-
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 708945A3
