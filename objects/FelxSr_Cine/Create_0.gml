@@ -1,9 +1,16 @@
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 25ACD655
-/// @DnDArgument : "lives" "3"
+/// @DnDArgument : "lives" "1"
 
-__dnd_lives = real(3);
+__dnd_lives = real(1);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 523DC6C9
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "jump"
+jump = false;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

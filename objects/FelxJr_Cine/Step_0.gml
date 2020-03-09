@@ -137,13 +137,13 @@ switch(l1DDFA5C2_0)
 	/// @DnDParent : 1DDFA5C2
 	/// @DnDArgument : "const" "ps.AIR"
 	case ps.AIR:
-		/// @DnDAction : YoYo Games.Common.Execute_Script
-		/// @DnDVersion : 1.1
-		/// @DnDHash : 260F3698
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0F3264BB
 		/// @DnDParent : 76E186CF
-		/// @DnDArgument : "script" "get_input"
-		/// @DnDSaveInfo : "script" "460f66a2-bf89-4795-b5e3-6effe6f42c73"
-		script_execute(get_input);
+		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "var" "jump"
+		jump = false;
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
