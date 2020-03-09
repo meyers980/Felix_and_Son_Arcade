@@ -31,11 +31,11 @@ if(state == es.DEAD)
 		/// @DnDHash : 045460EC
 		/// @DnDApplyTo : attacker
 		/// @DnDParent : 7D23499B
-		/// @DnDArgument : "score" "100 * other.multiplier"
+		/// @DnDArgument : "score" "200 * other.multiplier"
 		/// @DnDArgument : "score_relative" "1"
 		with(attacker) {
 		if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-		__dnd_score += real(100 * other.multiplier);
+		__dnd_score += real(200 * other.multiplier);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Set_Global

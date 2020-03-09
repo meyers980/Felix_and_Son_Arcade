@@ -11,8 +11,8 @@ draw_set_font(score_font);
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" "mulitiplier * 100"
-draw_text(x + 0, y + 0,  + string(mulitiplier * 100));
+/// @DnDArgument : "var" "mulitiplier * 200"
+draw_text(x + 0, y + 0,  + string(mulitiplier * 200));
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1

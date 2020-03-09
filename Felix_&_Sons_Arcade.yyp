@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "2df52454-441f-4ad5-b579-d443710fffd2",
+            "Value": {
+                "id": "72ab5f43-1222-463b-be1e-d9e8ecc48a5d",
+                "resourcePath": "sprites\\fox_demo\\fox_demo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f31cd9c-c61c-4de9-bc9a-bb154976de3e",
             "Value": {
                 "id": "173d2290-0c5a-4af8-b219-17a989f4754c",
@@ -586,7 +594,7 @@
             "Key": "775e2931-9700-486d-a36d-6917bcd7464a",
             "Value": {
                 "id": "6de34724-dc88-42c1-80f9-792f7f4ab3ea",
-                "resourcePath": "sprites\\s_fastfox\\s_fastfox.yy",
+                "resourcePath": "sprites\\s_foxel\\s_foxel.yy",
                 "resourceType": "GMSprite"
             }
         },
