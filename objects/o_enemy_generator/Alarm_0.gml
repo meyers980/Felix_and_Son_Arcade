@@ -38,11 +38,11 @@ switch(l1B64A611_0)
 			/// @DnDVersion : 1
 			/// @DnDHash : 21288A35
 			/// @DnDParent : 66F7F9F4
-			/// @DnDArgument : "ypos" "96"
+			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_rat"
 			/// @DnDArgument : "layer" ""Enemy""
 			/// @DnDSaveInfo : "objectid" "fef6b67f-4b90-4fc0-9e24-656a5c780b65"
-			instance_create_layer(0, 96, "Enemy", o_rat);
+			instance_create_layer(0, 48, "Enemy", o_rat);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Else
@@ -56,11 +56,11 @@ switch(l1B64A611_0)
 			/// @DnDHash : 496922A0
 			/// @DnDParent : 12EB076C
 			/// @DnDArgument : "xpos" "640"
-			/// @DnDArgument : "ypos" "96"
+			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_rat"
 			/// @DnDArgument : "layer" ""Enemy""
 			/// @DnDSaveInfo : "objectid" "fef6b67f-4b90-4fc0-9e24-656a5c780b65"
-			instance_create_layer(640, 96, "Enemy", o_rat);
+			instance_create_layer(640, 48, "Enemy", o_rat);
 		}
 		break;
 
@@ -82,11 +82,11 @@ switch(l1B64A611_0)
 			/// @DnDVersion : 1
 			/// @DnDHash : 6CFA6F67
 			/// @DnDParent : 29AB9FBD
-			/// @DnDArgument : "ypos" "96"
+			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_pigeon"
 			/// @DnDArgument : "layer" ""Enemy""
 			/// @DnDSaveInfo : "objectid" "5f6ea25e-4556-4c36-ae2e-850d83d6b1bf"
-			instance_create_layer(0, 96, "Enemy", o_pigeon);
+			instance_create_layer(0, 48, "Enemy", o_pigeon);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Else
@@ -100,11 +100,11 @@ switch(l1B64A611_0)
 			/// @DnDHash : 6221E236
 			/// @DnDParent : 37C0FA3F
 			/// @DnDArgument : "xpos" "640"
-			/// @DnDArgument : "ypos" "96"
+			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_pigeon"
 			/// @DnDArgument : "layer" ""Enemy""
 			/// @DnDSaveInfo : "objectid" "5f6ea25e-4556-4c36-ae2e-850d83d6b1bf"
-			instance_create_layer(640, 96, "Enemy", o_pigeon);
+			instance_create_layer(640, 48, "Enemy", o_pigeon);
 		}
 		break;
 
@@ -126,11 +126,11 @@ switch(l1B64A611_0)
 			/// @DnDVersion : 1
 			/// @DnDHash : 7E4EBABD
 			/// @DnDParent : 5805CA2E
-			/// @DnDArgument : "ypos" "96"
+			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_fox"
 			/// @DnDArgument : "layer" ""Enemy""
 			/// @DnDSaveInfo : "objectid" "026005a1-835c-485d-8c31-c35ca323193a"
-			instance_create_layer(0, 96, "Enemy", o_fox);
+			instance_create_layer(0, 48, "Enemy", o_fox);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Else
@@ -144,11 +144,11 @@ switch(l1B64A611_0)
 			/// @DnDHash : 1C17B3A3
 			/// @DnDParent : 5A1BACB5
 			/// @DnDArgument : "xpos" "640"
-			/// @DnDArgument : "ypos" "96"
+			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_fox"
 			/// @DnDArgument : "layer" ""Enemy""
 			/// @DnDSaveInfo : "objectid" "026005a1-835c-485d-8c31-c35ca323193a"
-			instance_create_layer(640, 96, "Enemy", o_fox);
+			instance_create_layer(640, 48, "Enemy", o_fox);
 		}
 		break;
 }
