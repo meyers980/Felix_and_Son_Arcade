@@ -80,6 +80,16 @@ if(global.coins > 0)
 		instance_create_layer(400, 416, "Player", FelxJr_Obj);
 	}
 
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 6B7FC3C8
+	/// @DnDParent : 43CF9E27
+	/// @DnDArgument : "xpos" "320"
+	/// @DnDArgument : "ypos" "336"
+	/// @DnDArgument : "objectid" "o_hammer"
+	/// @DnDSaveInfo : "objectid" "c33d49aa-df6a-4a85-9870-890fc18067e7"
+	instance_create_layer(320, 336, "Instances", o_hammer);
+
 	/// @DnDAction : YoYo Games.Rooms.Next_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 5F38B171

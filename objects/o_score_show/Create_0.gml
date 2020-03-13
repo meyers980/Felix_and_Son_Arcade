@@ -22,6 +22,12 @@ with(o_game) instance_destroy();
 /// @DnDApplyTo : f39216fb-ac45-4d0b-b419-f68315dcc07b
 with(o_playercreator) instance_destroy();
 
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 70B384FB
+/// @DnDApplyTo : c33d49aa-df6a-4a85-9870-890fc18067e7
+with(o_hammer) instance_destroy();
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 00A7585E

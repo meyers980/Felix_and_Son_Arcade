@@ -2,7 +2,7 @@
 {
     "name": "score_enter",
     "id": "619c4ec7-bea6-4973-a10e-0d5d38b53041",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

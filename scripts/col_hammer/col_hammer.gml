@@ -43,8 +43,8 @@ audio_play_sound(Enemy_Cage, 0, 1);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 5D9DC247
-/// @DnDArgument : "steps" "(ratcount + foxcount + pigeoncount) * 13.8"
-alarm_set(0, (ratcount + foxcount + pigeoncount) * 13.8);
+/// @DnDArgument : "steps" "((ratcount + foxcount + pigeoncount) * 13.8) + 1"
+alarm_set(0, ((ratcount + foxcount + pigeoncount) * 13.8) + 1);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
