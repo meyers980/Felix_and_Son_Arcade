@@ -8,7 +8,8 @@
         "83063343-c12e-40ff-85be-86896c7f090b",
         "26bda679-2b11-45dc-8471-b7dc9e2c8a41",
         "d827eab7-2950-4d68-bb93-30e73c576336",
-        "0d7efb86-9960-405d-b142-d9d2dc8d80e8"
+        "0d7efb86-9960-405d-b142-d9d2dc8d80e8",
+        "8ba7a298-8691-428e-ac19-2b2a5342d90f"
     ],
     "filterType": "GMSound",
     "folderName": "Player_Sounds",

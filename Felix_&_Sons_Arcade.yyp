@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "8ba7a298-8691-428e-ac19-2b2a5342d90f",
+            "Value": {
+                "id": "68a45813-afb1-493f-8bbe-15cfbb08216b",
+                "resourcePath": "sounds\\hammer\\hammer.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8c528e1c-b17d-46a6-99c6-b8b427a97b62",
             "Value": {
                 "id": "e8df50e8-0841-4140-8f1f-d4ca1fee6e6f",
