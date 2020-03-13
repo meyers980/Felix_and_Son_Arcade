@@ -126,15 +126,15 @@ switch(l66B42B2A_0)
 	
 		/// @DnDAction : YoYo Games.Common.If_Expression
 		/// @DnDVersion : 1
-		/// @DnDHash : 5D058D67
+		/// @DnDHash : 65050FA7
 		/// @DnDParent : 2294C683
-		/// @DnDArgument : "expr" "global.level mod 4 == 0"
-		if(global.level mod 4 == 0)
+		/// @DnDArgument : "expr" "global.level mod 5 = 0"
+		if(global.level mod 5 = 0)
 		{
 			/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 			/// @DnDVersion : 1
 			/// @DnDHash : 27C7B981
-			/// @DnDParent : 5D058D67
+			/// @DnDParent : 65050FA7
 			/// @DnDArgument : "obj" "o_hammer"
 			/// @DnDArgument : "not" "1"
 			/// @DnDSaveInfo : "obj" "c33d49aa-df6a-4a85-9870-890fc18067e7"

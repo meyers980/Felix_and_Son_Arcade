@@ -7,7 +7,7 @@ script_execute(col_hammer);
 
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
-/// @DnDHash : 0001323E
+/// @DnDHash : 4E017C79
 /// @DnDArgument : "x" "900"
 /// @DnDArgument : "y" "900"
 x = 900;
