@@ -10,6 +10,6 @@ y = ystart + Amp*sin(x/Freq);
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
 /// @DnDHash : 5F062D20
-/// @DnDArgument : "angle" "35"
+/// @DnDArgument : "angle" "38"
 /// @DnDArgument : "angle_relative" "1"
-image_angle += 35;
+image_angle += 38;

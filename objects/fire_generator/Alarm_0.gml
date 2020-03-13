@@ -4,8 +4,8 @@
 /// @DnDArgument : "var" "create_fire"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "40"
-var create_fire = floor(random_range(0, 40 + 1));
+/// @DnDArgument : "max" "35"
+var create_fire = floor(random_range(0, 35 + 1));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

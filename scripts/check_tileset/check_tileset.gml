@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 1B9F7152
-/// @DnDArgument : "expr" "global.level == 1 || global.level == 4 || global.level == 7"
-if(global.level == 1 || global.level == 4 || global.level == 7)
+/// @DnDArgument : "expr" "global.level < 3"
+if(global.level < 3)
 {
 	/// @DnDAction : YoYo Games.Tiles.Tile_Set_TileSet
 	/// @DnDVersion : 1
@@ -28,8 +28,8 @@ if(global.level == 1 || global.level == 4 || global.level == 7)
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 574633B2
-/// @DnDArgument : "expr" "global.level == 2 || global.level == 5 || global.level == 8"
-if(global.level == 2 || global.level == 5 || global.level == 8)
+/// @DnDArgument : "expr" "global.level > 2 && global.level < 5"
+if(global.level > 2 && global.level < 5)
 {
 	/// @DnDAction : YoYo Games.Tiles.Tile_Set_TileSet
 	/// @DnDVersion : 1
@@ -55,8 +55,8 @@ if(global.level == 2 || global.level == 5 || global.level == 8)
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 394E3EF5
-/// @DnDArgument : "expr" "global.level == 3 || global.level == 6 || global.level == 9"
-if(global.level == 3 || global.level == 6 || global.level == 9)
+/// @DnDArgument : "expr" "global.level > 4"
+if(global.level > 4)
 {
 	/// @DnDAction : YoYo Games.Tiles.Tile_Set_TileSet
 	/// @DnDVersion : 1
