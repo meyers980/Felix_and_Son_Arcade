@@ -33,3 +33,15 @@ with(o_brick) instance_destroy();
 /// @DnDHash : 53A60F5E
 /// @DnDApplyTo : ff582ad2-5e2f-481e-b3ec-fcaa0c2f3fd0
 with(o_fireball) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 7D7C3F22
+/// @DnDApplyTo : 578cfeb3-e352-4831-9972-1c8415675d35
+with(fire_generator) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 1FAE0B54
+/// @DnDApplyTo : 3eaad515-349d-4dac-973a-42e8e82fe698
+with(ralph_generator) instance_destroy();

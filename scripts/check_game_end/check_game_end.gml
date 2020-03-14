@@ -105,10 +105,10 @@ if(global.srlives + global.jrlives <= 0)
 		/// @DnDHash : 18CB5F6C
 		/// @DnDApplyTo : f76e5ce0-74d2-46ef-b53a-b7c32aaf45e7
 		/// @DnDParent : 1CBEB26C
-		/// @DnDArgument : "steps" "120"
+		/// @DnDArgument : "steps" "180"
 		/// @DnDArgument : "alarm" "1"
 		with(admin_obj) {
-		alarm_set(1, 120);
+		alarm_set(1, 180);
 		
 		}
 	}
@@ -124,10 +124,10 @@ if(global.srlives + global.jrlives <= 0)
 		/// @DnDHash : 34DE9E69
 		/// @DnDApplyTo : f76e5ce0-74d2-46ef-b53a-b7c32aaf45e7
 		/// @DnDParent : 69E8310E
-		/// @DnDArgument : "steps" "120"
+		/// @DnDArgument : "steps" "180"
 		/// @DnDArgument : "alarm" "2"
 		with(admin_obj) {
-		alarm_set(2, 120);
+		alarm_set(2, 180);
 		
 		}
 	}

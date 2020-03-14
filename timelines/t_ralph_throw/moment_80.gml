@@ -1,3 +1,12 @@
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 2FB6E332
+/// @DnDArgument : "imageind" "1"
+/// @DnDArgument : "spriteind" "s_Ralph_Main"
+/// @DnDSaveInfo : "spriteind" "60aef673-fd57-4bbf-b502-6ef412776ae5"
+sprite_index = s_Ralph_Main;
+image_index = 1;
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 5F9D47FF

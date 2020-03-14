@@ -60,11 +60,19 @@ if(list_count + rat_count + fox_count + pigeon_count = 0)
 		/// @DnDHash : 27CF64FF
 		/// @DnDApplyTo : f76e5ce0-74d2-46ef-b53a-b7c32aaf45e7
 		/// @DnDParent : 104C6383
-		/// @DnDArgument : "steps" "120"
+		/// @DnDArgument : "steps" "180"
 		with(admin_obj) {
-		alarm_set(0, 120);
+		alarm_set(0, 180);
 		
 		}
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 27F39287
+		/// @DnDParent : 104C6383
+		/// @DnDArgument : "soundid" "Level_Complete"
+		/// @DnDSaveInfo : "soundid" "6c50c9e0-cd94-4811-b4b6-5d6a97b67ff7"
+		audio_play_sound(Level_Complete, 0, 0);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1

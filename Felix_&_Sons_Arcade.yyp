@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "206e5ce3-f851-4c03-8610-e8dd6de704d6",
+            "Value": {
+                "id": "da331850-741f-4e66-b51e-9ddcecc7d45f",
+                "resourcePath": "sounds\\Enter_High_Score\\Enter_High_Score.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "265a47b3-83c1-4db2-bb24-6d4d99676b2c",
             "Value": {
                 "id": "0dcfc95f-b515-4640-937a-cc7aa2dbd0a8",
@@ -340,6 +348,14 @@
                 "id": "df76c172-51de-41cd-9fe8-a83ade134899",
                 "resourcePath": "sprites\\s_gameover\\s_gameover.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "41faca2e-1288-4dc2-a44f-057c14374c4f",
+            "Value": {
+                "id": "6f2bb24b-5b6f-4f9b-9e58-4c64b94f7729",
+                "resourcePath": "sounds\\View_Scores\\View_Scores.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -588,6 +604,14 @@
                 "id": "8ca7b952-8832-4985-84f0-42bdf2c7f3c9",
                 "resourcePath": "scripts\\calc_movement\\calc_movement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6c50c9e0-cd94-4811-b4b6-5d6a97b67ff7",
+            "Value": {
+                "id": "c97e6dde-053b-40e1-92d4-424e0623638c",
+                "resourcePath": "sounds\\Level_Complete\\Level_Complete.yy",
+                "resourceType": "GMSound"
             }
         },
         {
