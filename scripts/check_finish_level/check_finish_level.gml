@@ -65,5 +65,13 @@ if(list_count + rat_count + fox_count + pigeon_count = 0)
 		alarm_set(0, 120);
 		
 		}
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 7A2AC3C6
+		/// @DnDParent : 104C6383
+		/// @DnDArgument : "script" "destroy_enemies"
+		/// @DnDSaveInfo : "script" "fbbdb6a4-0f72-4361-95d2-ecd7681bec55"
+		script_execute(destroy_enemies);
 	}
 }
