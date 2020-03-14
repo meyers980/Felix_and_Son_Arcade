@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "53b63951-6b73-4247-86b5-dc7a1bb2995c",
+            "Value": {
+                "id": "ad997154-646a-4466-971c-64fa3023c411",
+                "resourcePath": "scripts\\check_ralph_side\\check_ralph_side.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "54c1ad95-819a-4ba1-8c60-0fa44e36a64a",
             "Value": {
                 "id": "ebc07d27-d05f-4c7a-88cd-c883a8998434",
@@ -1367,6 +1375,7 @@
         "8261f772-5c2a-4fe1-8074-49bb36fee349",
         "4e6a1dd8-b501-4313-a9b6-6f79797ce6f2",
         "54c1ad95-819a-4ba1-8c60-0fa44e36a64a",
+        "53b63951-6b73-4247-86b5-dc7a1bb2995c",
         "756a2a73-2eec-49a0-bd1c-9528e0cdb124",
         "8edb6c6a-3a8f-4a2d-b3c9-e9da43227abc",
         "f791550a-ba49-4e7c-b6e7-be16d45af5a3",
