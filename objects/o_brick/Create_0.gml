@@ -5,6 +5,13 @@
 /// @DnDArgument : "var" "state"
 state = es.WALK;
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 0E7194F3
+/// @DnDArgument : "soundid" "brick_throw"
+/// @DnDSaveInfo : "soundid" "d3de3283-61a6-4653-85d7-f2ed04510617"
+audio_play_sound(brick_throw, 0, 0);
+
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 218775AB

@@ -1111,6 +1111,14 @@
             }
         },
         {
+            "Key": "d3de3283-61a6-4653-85d7-f2ed04510617",
+            "Value": {
+                "id": "3b29f25c-f55c-411e-b1ac-cf0ad48354c9",
+                "resourcePath": "sounds\\brick_throw\\brick_throw.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d7cb81f4-bee0-4769-a701-9f8fbf7b6588",
             "Value": {
                 "id": "3d2f19de-ec88-45fe-b6bb-e588b5f9ae1c",
