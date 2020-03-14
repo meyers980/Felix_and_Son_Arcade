@@ -1,23 +1,3 @@
-/// @DnDAction : YoYo Games.Files.Open_Ini
-/// @DnDVersion : 1
-/// @DnDHash : 5222D209
-/// @DnDArgument : "filename" ""settings.ini""
-ini_open("settings.ini");
-
-/// @DnDAction : YoYo Games.Files.Ini_Read
-/// @DnDVersion : 1
-/// @DnDHash : 4D36FDF8
-/// @DnDArgument : "var" "global.freeplay"
-/// @DnDArgument : "section" ""settings""
-/// @DnDArgument : "key" ""freeplay""
-/// @DnDArgument : "default" ""false""
-global.freeplay = ini_read_string("settings", "freeplay", "false");
-
-/// @DnDAction : YoYo Games.Files.Close_Ini
-/// @DnDVersion : 1
-/// @DnDHash : 1196272A
-ini_close();
-
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
 /// @DnDHash : 76A718EE
