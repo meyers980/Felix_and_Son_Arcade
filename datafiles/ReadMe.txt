@@ -13,3 +13,5 @@ G - P2 Right
 A - P2 Jump
 Esc - Quit
 F12 Toggle Fullscreen
+
+You can change controls in settings.ini. To change, find the UTF-8 value for the key you'd like to use (if it's in hex, convert it to decimal).
