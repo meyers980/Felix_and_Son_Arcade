@@ -21,6 +21,12 @@ if(global.coins > 0)
 	global.numberofplayers = 1;
 	global.level = 1;
 
+	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 39CDE261
+	/// @DnDParent : 43CF9E27
+	audio_stop_all();
+
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 2D299DAE

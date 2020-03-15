@@ -503,14 +503,6 @@
             }
         },
         {
-            "Key": "5e14ffb8-e5f2-4f7c-a0c3-c82b00ba64fa",
-            "Value": {
-                "id": "2b3af675-d0b8-45f5-9d99-3ad2b4777576",
-                "resourcePath": "sprites\\s_coin\\s_coin.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5ed9e3a2-ab6f-46d6-b09c-8f63cf65343c",
             "Value": {
                 "id": "e2af36b5-364f-4dc7-89af-47b33a7bc1e0",
@@ -1147,6 +1139,14 @@
             "Value": {
                 "id": "3b29f25c-f55c-411e-b1ac-cf0ad48354c9",
                 "resourcePath": "sounds\\brick_throw\\brick_throw.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d4c2dbcf-84a3-4e14-b632-5e0a3eb3bd42",
+            "Value": {
+                "id": "6fa885a7-dedf-4647-915c-1bd669344cd8",
+                "resourcePath": "sounds\\Menu_Music\\Menu_Music.yy",
                 "resourceType": "GMSound"
             }
         },
