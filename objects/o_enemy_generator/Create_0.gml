@@ -1,15 +1,15 @@
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 0557D954
+/// @DnDArgument : "var" "enemy_list"
+enemy_list = ds_list_create();
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 26B06DE1
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "spawnside"
 spawnside = 1;
-
-/// @DnDAction : YoYo Games.Data Structures.Create_List
-/// @DnDVersion : 1
-/// @DnDHash : 0557D954
-/// @DnDArgument : "var" "enemy_list"
-enemy_list = ds_list_create();
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1

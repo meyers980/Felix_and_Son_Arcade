@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "018a686c-e7ec-4e9e-b7e5-61fb59a53851",
+            "Value": {
+                "id": "4f770807-9945-492f-89c2-e0c47dc6ca4f",
+                "resourcePath": "sounds\\saw_sound\\saw_sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "026005a1-835c-485d-8c31-c35ca323193a",
             "Value": {
                 "id": "89f249bb-f9ec-4457-b20b-7126ce8e5c22",
@@ -676,6 +684,14 @@
                 "id": "4fcebe97-58e8-4b7a-99c0-a3147b2332a1",
                 "resourcePath": "scripts\\col_playertoenemy\\col_playertoenemy.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "6024021c-56ca-4cba-ac11-783ba6ae362e",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
             }
         },
         {

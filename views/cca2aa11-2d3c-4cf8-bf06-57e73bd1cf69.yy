@@ -13,7 +13,8 @@
         "5ed9e3a2-ab6f-46d6-b09c-8f63cf65343c",
         "69931273-cd5b-4a90-a6f6-8f032df3d376",
         "f55e5242-6474-4ec5-b01a-ec76df599cda",
-        "d3de3283-61a6-4653-85d7-f2ed04510617"
+        "d3de3283-61a6-4653-85d7-f2ed04510617",
+        "018a686c-e7ec-4e9e-b7e5-61fb59a53851"
     ],
     "filterType": "GMSound",
     "folderName": "Enemies_Hit",
