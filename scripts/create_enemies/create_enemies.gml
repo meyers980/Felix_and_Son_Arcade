@@ -137,12 +137,40 @@ if(global.level > 6)
 	/// @DnDInput : 7
 	/// @DnDParent : 6AA09E64
 	/// @DnDArgument : "var" "enemy_list"
-	/// @DnDArgument : "value" ""fox""
+	/// @DnDArgument : "value" ""rat""
 	/// @DnDArgument : "value_1" ""fox""
 	/// @DnDArgument : "value_2" ""pigeon""
 	/// @DnDArgument : "value_3" ""pigeon""
 	/// @DnDArgument : "value_4" ""fox""
 	/// @DnDArgument : "value_5" ""rat""
 	/// @DnDArgument : "value_6" ""rat""
-	ds_list_add(enemy_list, "fox", "fox", "pigeon", "pigeon", "fox", "rat", "rat");
+	ds_list_add(enemy_list, "rat", "fox", "pigeon", "pigeon", "fox", "rat", "rat");
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 34E384FA
+/// @DnDArgument : "var" "global.level"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "7"
+if(global.level > 7)
+{
+	/// @DnDAction : YoYo Games.Loops.Repeat
+	/// @DnDVersion : 1
+	/// @DnDHash : 6EE16C68
+	/// @DnDParent : 34E384FA
+	/// @DnDArgument : "times" "(global.level - 7)"
+	repeat((global.level - 7))
+	{
+		/// @DnDAction : YoYo Games.Data Structures.List_Add
+		/// @DnDVersion : 1
+		/// @DnDHash : 22EF94CC
+		/// @DnDInput : 3
+		/// @DnDParent : 6EE16C68
+		/// @DnDArgument : "var" "enemy_list"
+		/// @DnDArgument : "value" ""rat""
+		/// @DnDArgument : "value_1" ""fox""
+		/// @DnDArgument : "value_2" ""pigeon""
+		ds_list_add(enemy_list, "rat", "fox", "pigeon");
+	}
 }
