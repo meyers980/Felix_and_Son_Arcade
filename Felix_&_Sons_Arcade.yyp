@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "18ce00eb-f130-4655-9aad-1b31ccc7a16c",
+            "Value": {
+                "id": "c594f74e-ab37-4186-97b7-b1f469960171",
+                "resourcePath": "sounds\\Break_Cage\\Break_Cage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "18f9907b-b808-47cf-b5d4-abb551f53205",
             "Value": {
                 "id": "444c4d55-d449-49e8-89c9-84e5e1287fb6",
