@@ -13,3 +13,19 @@ y = ystart + Amp*sin(x/Freq);
 /// @DnDArgument : "angle" "38"
 /// @DnDArgument : "angle_relative" "1"
 image_angle += 38;
+
+/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
+/// @DnDVersion : 1
+/// @DnDHash : 7F0173F9
+/// @DnDArgument : "not" "1"
+var l7F0173F9_0 = noone;
+if (!audio_is_playing(l7F0173F9_0))
+{
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 79BFA6FD
+	/// @DnDParent : 7F0173F9
+	/// @DnDArgument : "soundid" "saw_sound"
+	/// @DnDSaveInfo : "soundid" "018a686c-e7ec-4e9e-b7e5-61fb59a53851"
+	audio_play_sound(saw_sound, 0, 0);
+}
