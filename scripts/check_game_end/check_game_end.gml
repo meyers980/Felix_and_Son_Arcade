@@ -100,6 +100,14 @@ if(global.srlives + global.jrlives <= 0)
 	/// @DnDArgument : "value" "highscore_value(10)"
 	if(global.srscore + global.jrscore > highscore_value(10))
 	{
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 354F3C8B
+		/// @DnDParent : 1CBEB26C
+		/// @DnDArgument : "script" "destroy_enemies"
+		/// @DnDSaveInfo : "script" "fbbdb6a4-0f72-4361-95d2-ecd7681bec55"
+		script_execute(destroy_enemies);
+	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 18CB5F6C
@@ -119,6 +127,14 @@ if(global.srlives + global.jrlives <= 0)
 	/// @DnDParent : 7A1392E3
 	else
 	{
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 0A5453AD
+		/// @DnDParent : 69E8310E
+		/// @DnDArgument : "script" "destroy_enemies"
+		/// @DnDSaveInfo : "script" "fbbdb6a4-0f72-4361-95d2-ecd7681bec55"
+		script_execute(destroy_enemies);
+	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 34DE9E69

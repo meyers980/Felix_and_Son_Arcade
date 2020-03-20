@@ -1,5 +1,11 @@
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
+/// @DnDHash : 454D14E3
+/// @DnDApplyTo : 50f8068c-d00c-4caa-b7ff-41a40b585285
+with(o_enemy_generator) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
 /// @DnDHash : 381324E9
 /// @DnDApplyTo : fef6b67f-4b90-4fc0-9e24-656a5c780b65
 with(o_rat) instance_destroy();
