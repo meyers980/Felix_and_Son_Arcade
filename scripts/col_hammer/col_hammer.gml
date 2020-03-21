@@ -87,3 +87,33 @@ state = es.STUN;
 hsp = 0;
 
 }
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 474E22F9
+/// @DnDApplyTo : fef6b67f-4b90-4fc0-9e24-656a5c780b65
+/// @DnDArgument : "steps" "300"
+with(o_rat) {
+alarm_set(0, 300);
+
+}
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 7A2803DC
+/// @DnDApplyTo : 026005a1-835c-485d-8c31-c35ca323193a
+/// @DnDArgument : "steps" "300"
+with(o_fox) {
+alarm_set(0, 300);
+
+}
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 1057C70C
+/// @DnDApplyTo : 5f6ea25e-4556-4c36-ae2e-850d83d6b1bf
+/// @DnDArgument : "steps" "300"
+with(o_pigeon) {
+alarm_set(0, 300);
+
+}
