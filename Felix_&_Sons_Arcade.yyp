@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "39c8ad83-ed52-448c-bf89-0480377d67f9",
+            "Value": {
+                "id": "75e1857e-afcc-45c1-8ccc-ec40f8bc96a5",
+                "resourcePath": "objects\\dollar_display\\dollar_display.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a71cf7d-26d9-46df-99dc-a4f23199ffb9",
             "Value": {
                 "id": "519d4ea8-b1ff-49ab-b576-38652a8e828b",
@@ -619,6 +627,14 @@
             "Value": {
                 "id": "f5fd10f7-a1bd-4153-8973-6363489c2e54",
                 "resourcePath": "sounds\\Cage_Hit\\Cage_Hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6ab98694-5152-4d4b-be3a-aaf5796278ee",
+            "Value": {
+                "id": "ce27dfc7-e544-4aa0-a358-f5213521e16c",
+                "resourcePath": "sounds\\dollar\\dollar.yy",
                 "resourceType": "GMSound"
             }
         },

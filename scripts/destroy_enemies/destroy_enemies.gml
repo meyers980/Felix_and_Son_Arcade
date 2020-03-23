@@ -51,3 +51,9 @@ with(fire_generator) instance_destroy();
 /// @DnDHash : 1FAE0B54
 /// @DnDApplyTo : 3eaad515-349d-4dac-973a-42e8e82fe698
 with(ralph_generator) instance_destroy();
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 20985A10
+/// @DnDApplyTo : 0a064608-d3b2-4120-bd90-9d0ca1c80d56
+with(o_dollar) instance_destroy();
