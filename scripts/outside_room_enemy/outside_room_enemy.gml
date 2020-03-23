@@ -31,6 +31,41 @@ switch(l46AA6E2E_0)
 		__dnd_score += real(100);
 		}
 	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 5A052871
+		/// @DnDParent : 7D3E7014
+		/// @DnDArgument : "var" "room"
+		/// @DnDArgument : "value" "room0"
+		if(room == room0)
+		{
+			/// @DnDAction : YoYo Games.Data Structures.List_Count
+			/// @DnDVersion : 1
+			/// @DnDHash : 3A6AEFF6
+			/// @DnDParent : 5A052871
+			/// @DnDArgument : "assignee" "listcount"
+			/// @DnDArgument : "var" "o_enemy_generator.enemy_list"
+			listcount = ds_list_size(o_enemy_generator.enemy_list);
+		
+			/// @DnDAction : YoYo Games.Random.Get_Random_Number
+			/// @DnDVersion : 1
+			/// @DnDHash : 658F8D90
+			/// @DnDParent : 5A052871
+			/// @DnDArgument : "var" "listposition"
+			/// @DnDArgument : "type" "1"
+			/// @DnDArgument : "max" "listcount"
+			listposition = floor(random_range(0, listcount + 1));
+		
+			/// @DnDAction : YoYo Games.Data Structures.List_Insert
+			/// @DnDVersion : 1
+			/// @DnDHash : 33B72E75
+			/// @DnDParent : 5A052871
+			/// @DnDArgument : "var" "o_enemy_generator.enemy_list"
+			/// @DnDArgument : "index" "listposition"
+			/// @DnDArgument : "value" ""dollar""
+			ds_list_insert(o_enemy_generator.enemy_list, listposition, "dollar");
+		}
+	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 2B237ECF

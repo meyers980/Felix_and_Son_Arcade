@@ -6,6 +6,24 @@
 /// @DnDArgument : "var" "enemy_list"
 var list_count = ds_list_size(enemy_list);
 
+/// @DnDAction : YoYo Games.Data Structures.List_IndexOf
+/// @DnDVersion : 1
+/// @DnDHash : 7BFBC31A
+/// @DnDInput : 3
+/// @DnDArgument : "assignee" "ratlist"
+/// @DnDArgument : "assignee_temp" "1"
+/// @DnDArgument : "assignee_1" "pigeonlist"
+/// @DnDArgument : "assignee_temp_1" "1"
+/// @DnDArgument : "assignee_2" "foxlist"
+/// @DnDArgument : "assignee_temp_2" "1"
+/// @DnDArgument : "var" "enemy_list"
+/// @DnDArgument : "value" ""rat""
+/// @DnDArgument : "value_1" ""pigeon""
+/// @DnDArgument : "value_2" ""fox""
+var ratlist = ds_list_find_index(enemy_list, "rat");
+var pigeonlist = ds_list_find_index(enemy_list, "pigeon");
+var foxlist = ds_list_find_index(enemy_list, "fox");
+
 /// @DnDAction : YoYo Games.Instances.Instance_Get_Count
 /// @DnDVersion : 1
 /// @DnDHash : 2D454B67
@@ -36,8 +54,8 @@ var pigeon_count = instance_number(o_pigeon);
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 0061A9BA
-/// @DnDArgument : "expr" "list_count + rat_count + fox_count + pigeon_count = 0"
-if(list_count + rat_count + fox_count + pigeon_count = 0)
+/// @DnDArgument : "expr" "ratlist + pigeonlist + foxlist + rat_count + fox_count + pigeon_count < -2"
+if(ratlist + pigeonlist + foxlist + rat_count + fox_count + pigeon_count < -2)
 {
 	/// @DnDAction : YoYo Games.Data Structures.DS_Clear
 	/// @DnDVersion : 1
