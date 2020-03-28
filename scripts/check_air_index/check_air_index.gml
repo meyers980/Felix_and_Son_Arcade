@@ -3,7 +3,8 @@
 /// @DnDHash : 69F16DC1
 /// @DnDArgument : "var" "vsp"
 /// @DnDArgument : "op" "1"
-if(vsp < 0)
+/// @DnDArgument : "value" "1"
+if(vsp < 1)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1
