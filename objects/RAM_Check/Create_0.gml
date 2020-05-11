@@ -80,19 +80,27 @@ if(savescores == "false")
 /// @DnDHash : 782CDF4F
 else
 {
-	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
-	/// @DnDHash : 49CAF4E0
+	/// @DnDHash : 72D7048E
 	/// @DnDParent : 782CDF4F
-	/// @DnDArgument : "code" "highscore_add("SAM", 100000);$(13_10)highscore_add("JKF", 90000);$(13_10)highscore_add("ECM", 75000);$(13_10)highscore_add("FFS", 50000);$(13_10)highscore_add("FFJ", 10000);$(13_10)highscore_add("DAD", 5000);$(13_10)highscore_add("USA", 4000);$(13_10)highscore_add("MOM", 3000);$(13_10)highscore_add("JJE", 2000);$(13_10)highscore_add("BOB", 100);"
-	highscore_add("SAM", 100000);
-	highscore_add("JKF", 90000);
-	highscore_add("ECM", 75000);
-	highscore_add("FFS", 50000);
-	highscore_add("FFJ", 10000);
-	highscore_add("DAD", 5000);
-	highscore_add("USA", 4000);
-	highscore_add("MOM", 3000);
-	highscore_add("JJE", 2000);
-	highscore_add("BOB", 100);
+	/// @DnDArgument : "expr" "highscore_value(1) < 10"
+	if(highscore_value(1) < 10)
+	{
+		/// @DnDAction : YoYo Games.Common.Execute_Code
+		/// @DnDVersion : 1
+		/// @DnDHash : 49CAF4E0
+		/// @DnDParent : 72D7048E
+		/// @DnDArgument : "code" "highscore_add("SAM", 100000);$(13_10)highscore_add("JKF", 90000);$(13_10)highscore_add("ECM", 75000);$(13_10)highscore_add("FFS", 50000);$(13_10)highscore_add("FFJ", 10000);$(13_10)highscore_add("DAD", 5000);$(13_10)highscore_add("USA", 4000);$(13_10)highscore_add("MOM", 3000);$(13_10)highscore_add("JJE", 2000);$(13_10)highscore_add("BOB", 100);"
+		highscore_add("SAM", 100000);
+		highscore_add("JKF", 90000);
+		highscore_add("ECM", 75000);
+		highscore_add("FFS", 50000);
+		highscore_add("FFJ", 10000);
+		highscore_add("DAD", 5000);
+		highscore_add("USA", 4000);
+		highscore_add("MOM", 3000);
+		highscore_add("JJE", 2000);
+		highscore_add("BOB", 100);
+	}
 }
