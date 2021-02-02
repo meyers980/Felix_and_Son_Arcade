@@ -10,6 +10,7 @@ hsp = 0;
 /// @DnDApplyTo : o_demo
 /// @DnDArgument : "imageind" "2"
 /// @DnDArgument : "spriteind" "rat_demo"
+/// @DnDSaveInfo : "spriteind" "rat_demo"
 with(o_demo) {
 sprite_index = rat_demo;
 image_index = 2;

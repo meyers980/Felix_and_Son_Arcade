@@ -2,6 +2,7 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 6F81DB75
 /// @DnDArgument : "script" "col_hammer"
+/// @DnDSaveInfo : "script" "col_hammer"
 script_execute(col_hammer);
 
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point

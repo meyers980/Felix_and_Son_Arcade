@@ -55,6 +55,7 @@ if(create_fire < global.level)
 			/// @DnDHash : 41CDDF3F
 			/// @DnDParent : 6E82A198
 			/// @DnDArgument : "obj" "FelxSr_Obj"
+			/// @DnDSaveInfo : "obj" "FelxSr_Obj"
 			var l41CDDF3F_0 = false;
 			l41CDDF3F_0 = instance_exists(FelxSr_Obj);
 			if(l41CDDF3F_0)
@@ -67,6 +68,7 @@ if(create_fire < global.level)
 				/// @DnDArgument : "ypos" "FelxSr_Obj.y"
 				/// @DnDArgument : "objectid" "o_fireball"
 				/// @DnDArgument : "layer" ""Enemy""
+				/// @DnDSaveInfo : "objectid" "o_fireball"
 				instance_create_layer(fire_x, FelxSr_Obj.y, "Enemy", o_fireball);
 			}
 		
@@ -84,6 +86,7 @@ if(create_fire < global.level)
 				/// @DnDArgument : "ypos" "FelxJr_Obj.y"
 				/// @DnDArgument : "objectid" "o_fireball"
 				/// @DnDArgument : "layer" ""Enemy""
+				/// @DnDSaveInfo : "objectid" "o_fireball"
 				instance_create_layer(fire_x, FelxJr_Obj.y, "Enemy", o_fireball);
 			}
 			break;
@@ -99,6 +102,7 @@ if(create_fire < global.level)
 			/// @DnDHash : 1CEE9352
 			/// @DnDParent : 01AD7F52
 			/// @DnDArgument : "obj" "FelxJr_Obj"
+			/// @DnDSaveInfo : "obj" "FelxJr_Obj"
 			var l1CEE9352_0 = false;
 			l1CEE9352_0 = instance_exists(FelxJr_Obj);
 			if(l1CEE9352_0)
@@ -111,6 +115,7 @@ if(create_fire < global.level)
 				/// @DnDArgument : "ypos" "FelxJr_Obj.y"
 				/// @DnDArgument : "objectid" "o_fireball"
 				/// @DnDArgument : "layer" ""Enemy""
+				/// @DnDSaveInfo : "objectid" "o_fireball"
 				instance_create_layer(fire_x, FelxJr_Obj.y, "Enemy", o_fireball);
 			}
 		
@@ -128,6 +133,7 @@ if(create_fire < global.level)
 				/// @DnDArgument : "ypos" "FelxSr_Obj.y"
 				/// @DnDArgument : "objectid" "o_fireball"
 				/// @DnDArgument : "layer" ""Enemy""
+				/// @DnDSaveInfo : "objectid" "o_fireball"
 				instance_create_layer(fire_x, FelxSr_Obj.y, "Enemy", o_fireball);
 			}
 			break;

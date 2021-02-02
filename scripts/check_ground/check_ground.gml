@@ -1,9 +1,9 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 5A0D8624
-///@DnDInput : 0
-///@DnDArgument : "funcName" "check_ground"
-function check_ground() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 5A0D8624
+/// @DnDArgument : "funcName" "check_ground"
+function check_ground() 
+{
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 34F79D41
@@ -38,6 +38,4 @@ function check_ground() {
 		/// @DnDArgument : "var" "on_ground"
 		on_ground = false;
 	}
-
-
 }

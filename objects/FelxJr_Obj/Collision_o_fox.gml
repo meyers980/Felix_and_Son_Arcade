@@ -2,4 +2,5 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 18C4B1C4
 /// @DnDArgument : "script" "col_playertoenemy"
+/// @DnDSaveInfo : "script" "col_playertoenemy"
 script_execute(col_playertoenemy);

@@ -39,6 +39,7 @@ function check_finish_level()
 	/// @DnDArgument : "var" "rat_count"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "object" "o_rat"
+	/// @DnDSaveInfo : "object" "o_rat"
 	var rat_count = instance_number(o_rat);
 
 	/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
@@ -48,6 +49,7 @@ function check_finish_level()
 	/// @DnDArgument : "var" "fox_count"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "object" "o_fox"
+	/// @DnDSaveInfo : "object" "o_fox"
 	var fox_count = instance_number(o_fox);
 
 	/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
@@ -57,6 +59,7 @@ function check_finish_level()
 	/// @DnDArgument : "var" "pigeon_count"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "object" "o_pigeon"
+	/// @DnDSaveInfo : "object" "o_pigeon"
 	var pigeon_count = instance_number(o_pigeon);
 
 	/// @DnDAction : YoYo Games.Common.If_Expression
@@ -98,6 +101,7 @@ function check_finish_level()
 			/// @DnDHash : 27F39287
 			/// @DnDParent : 104C6383
 			/// @DnDArgument : "soundid" "Level_Complete"
+			/// @DnDSaveInfo : "soundid" "Level_Complete"
 			audio_play_sound(Level_Complete, 0, 0);
 		
 			/// @DnDAction : YoYo Games.Common.Execute_Script
@@ -105,6 +109,7 @@ function check_finish_level()
 			/// @DnDHash : 7A2AC3C6
 			/// @DnDParent : 104C6383
 			/// @DnDArgument : "script" "destroy_enemies"
+			/// @DnDSaveInfo : "script" "destroy_enemies"
 			script_execute(destroy_enemies);
 		}
 	}

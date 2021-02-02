@@ -11,6 +11,7 @@ if(state != ps.KNOCKBACK && alarm[0] <= 0)
 	/// @DnDHash : 40344916
 	/// @DnDParent : 3E507E86
 	/// @DnDArgument : "soundid" "Player_Damage"
+	/// @DnDSaveInfo : "soundid" "Player_Damage"
 	audio_play_sound(Player_Damage, 0, 0);
 
 	/// @DnDAction : YoYo Games.Instance Variables.Set_Lives

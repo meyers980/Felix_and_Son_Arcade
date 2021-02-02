@@ -27,6 +27,7 @@ function col_fireball()
 			/// @DnDHash : 001C0B93
 			/// @DnDParent : 674E25CF
 			/// @DnDArgument : "soundid" "Player_Damage"
+			/// @DnDSaveInfo : "soundid" "Player_Damage"
 			audio_play_sound(Player_Damage, 0, 0);
 		
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Lives

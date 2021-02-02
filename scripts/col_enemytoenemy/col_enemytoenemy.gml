@@ -28,6 +28,7 @@ function col_enemytoenemy()
 			/// @DnDArgument : "xpos_relative" "1"
 			/// @DnDArgument : "ypos_relative" "1"
 			/// @DnDArgument : "objectid" "o_explode"
+			/// @DnDSaveInfo : "objectid" "o_explode"
 			with(other) {
 				instance_create_layer(x + 0, y + 0, "Instances", o_explode); 
 			}
@@ -60,6 +61,7 @@ function col_enemytoenemy()
 			/// @DnDArgument : "xpos_relative" "1"
 			/// @DnDArgument : "ypos_relative" "1"
 			/// @DnDArgument : "objectid" "score_display"
+			/// @DnDSaveInfo : "objectid" "score_display"
 			with(other) {
 				instance_create_layer(x + 0, y + 0, "Instances", score_display); 
 			}
@@ -69,6 +71,7 @@ function col_enemytoenemy()
 			/// @DnDHash : 6F337024
 			/// @DnDParent : 7D23499B
 			/// @DnDArgument : "script" "aud_enemy_hit"
+			/// @DnDSaveInfo : "script" "aud_enemy_hit"
 			script_execute(aud_enemy_hit);
 		
 			/// @DnDAction : YoYo Games.Common.Variable

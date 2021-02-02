@@ -2,4 +2,5 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 1B90B154
 /// @DnDArgument : "script" "outside_room_enemy"
+/// @DnDSaveInfo : "script" "outside_room_enemy"
 script_execute(outside_room_enemy);

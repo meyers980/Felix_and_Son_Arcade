@@ -107,6 +107,7 @@ if(global.numberofplayers == 2)
 	/// @DnDArgument : "x" "384"
 	/// @DnDArgument : "y" "224"
 	/// @DnDArgument : "sprite" "FelixSr_Sprite_Main"
+	/// @DnDSaveInfo : "sprite" "FelixSr_Sprite_Main"
 	draw_sprite(FelixSr_Sprite_Main, 0, 384, 224);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
@@ -116,6 +117,7 @@ if(global.numberofplayers == 2)
 	/// @DnDArgument : "x" "448"
 	/// @DnDArgument : "y" "224"
 	/// @DnDArgument : "sprite" "FelixJr_Sprite_Main"
+	/// @DnDSaveInfo : "sprite" "FelixJr_Sprite_Main"
 	draw_sprite(FelixJr_Sprite_Main, 0, 448, 224);
 }
 
@@ -131,5 +133,6 @@ else
 	/// @DnDArgument : "x" "384"
 	/// @DnDArgument : "y" "224"
 	/// @DnDArgument : "sprite" "FelixSr_Sprite_Main"
+	/// @DnDSaveInfo : "sprite" "FelixSr_Sprite_Main"
 	draw_sprite(FelixSr_Sprite_Main, 0, 384, 224);
 }

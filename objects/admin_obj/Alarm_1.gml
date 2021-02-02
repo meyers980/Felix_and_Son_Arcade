@@ -2,4 +2,5 @@
 /// @DnDVersion : 1
 /// @DnDHash : 3CD80E83
 /// @DnDArgument : "room" "score_enter"
+/// @DnDSaveInfo : "room" "score_enter"
 room_goto(score_enter);

@@ -7,6 +7,7 @@ speed = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 606A2A94
 /// @DnDArgument : "soundid" "Break_Cage"
+/// @DnDSaveInfo : "soundid" "Break_Cage"
 audio_play_sound(Break_Cage, 0, 0);
 
 /// @DnDAction : YoYo Games.Common.Variable

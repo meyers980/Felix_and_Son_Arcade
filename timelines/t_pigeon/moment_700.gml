@@ -10,4 +10,5 @@ instance_activate_object(o_hammer);
 /// @DnDVersion : 1
 /// @DnDHash : 6CDE22F4
 /// @DnDArgument : "room" "room0"
+/// @DnDSaveInfo : "room" "room0"
 room_goto(room0);

@@ -7,6 +7,7 @@
 /// @DnDArgument : "y2" "bbox_bottom"
 /// @DnDArgument : "obj" "FelxSr_Obj"
 /// @DnDArgument : "shape" "1"
+/// @DnDSaveInfo : "obj" "FelxSr_Obj"
 var l163CD6E0_0 = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, FelxSr_Obj, true, 1);
 if((l163CD6E0_0))
 {
@@ -15,5 +16,6 @@ if((l163CD6E0_0))
 	/// @DnDHash : 3976DC87
 	/// @DnDParent : 163CD6E0
 	/// @DnDArgument : "script" "check_ralph_side"
+	/// @DnDSaveInfo : "script" "check_ralph_side"
 	script_execute(check_ralph_side);
 }

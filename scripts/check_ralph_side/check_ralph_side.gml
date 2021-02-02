@@ -37,6 +37,7 @@ function check_ralph_side()
 			/// @DnDArgument : "ypos" "314"
 			/// @DnDArgument : "objectid" "o_ralph"
 			/// @DnDArgument : "layer" ""Enemy""
+			/// @DnDSaveInfo : "objectid" "o_ralph"
 			instance_create_layer(-25, 314, "Enemy", o_ralph);
 			break;
 	
@@ -54,6 +55,7 @@ function check_ralph_side()
 			/// @DnDArgument : "ypos" "314"
 			/// @DnDArgument : "objectid" "o_ralph"
 			/// @DnDArgument : "layer" ""Enemy""
+			/// @DnDSaveInfo : "objectid" "o_ralph"
 			instance_create_layer(665, 314, "Enemy", o_ralph);
 			break;
 	}

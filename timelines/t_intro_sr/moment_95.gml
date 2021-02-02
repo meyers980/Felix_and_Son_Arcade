@@ -15,4 +15,5 @@ vsp = -5;
 /// @DnDVersion : 1
 /// @DnDHash : 35823D14
 /// @DnDArgument : "soundid" "Player_Jump"
+/// @DnDSaveInfo : "soundid" "Player_Jump"
 audio_play_sound(Player_Jump, 0, 0);

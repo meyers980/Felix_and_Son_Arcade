@@ -11,6 +11,7 @@ instance_deactivate_object(o_hammer);
 /// @DnDHash : 71E52558
 /// @DnDApplyTo : o_demo
 /// @DnDArgument : "spriteind" "pigeon_demo"
+/// @DnDSaveInfo : "spriteind" "pigeon_demo"
 with(o_demo) {
 sprite_index = pigeon_demo;
 image_index = 0;

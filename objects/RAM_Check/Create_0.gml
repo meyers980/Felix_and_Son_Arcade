@@ -7,6 +7,7 @@ randomize();
 /// @DnDVersion : 1
 /// @DnDHash : 76A718EE
 /// @DnDArgument : "font" "arcade_font"
+/// @DnDSaveInfo : "font" "arcade_font"
 draw_set_font(arcade_font);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment

@@ -32,6 +32,7 @@ if(global.coins > 0)
 	/// @DnDHash : 2D299DAE
 	/// @DnDParent : 43CF9E27
 	/// @DnDArgument : "soundid" "Game_Start_Sound"
+	/// @DnDSaveInfo : "soundid" "Game_Start_Sound"
 	audio_play_sound(Game_Start_Sound, 0, 0);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -50,6 +51,7 @@ if(global.coins > 0)
 		/// @DnDArgument : "ypos" "416"
 		/// @DnDArgument : "objectid" "FelxSr_Obj"
 		/// @DnDArgument : "layer" ""Player""
+		/// @DnDSaveInfo : "objectid" "FelxSr_Obj"
 		instance_create_layer(240, 416, "Player", FelxSr_Obj);
 	}
 
@@ -69,6 +71,7 @@ if(global.coins > 0)
 		/// @DnDArgument : "ypos" "416"
 		/// @DnDArgument : "objectid" "FelxSr_Obj"
 		/// @DnDArgument : "layer" ""Player""
+		/// @DnDSaveInfo : "objectid" "FelxSr_Obj"
 		instance_create_layer(240, 416, "Player", FelxSr_Obj);
 	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -79,6 +82,7 @@ if(global.coins > 0)
 		/// @DnDArgument : "ypos" "416"
 		/// @DnDArgument : "objectid" "FelxJr_Obj"
 		/// @DnDArgument : "layer" ""Player""
+		/// @DnDSaveInfo : "objectid" "FelxJr_Obj"
 		instance_create_layer(400, 416, "Player", FelxJr_Obj);
 	}
 
@@ -89,6 +93,7 @@ if(global.coins > 0)
 	/// @DnDArgument : "xpos" "320"
 	/// @DnDArgument : "ypos" "336"
 	/// @DnDArgument : "objectid" "o_hammer"
+	/// @DnDSaveInfo : "objectid" "o_hammer"
 	instance_create_layer(320, 336, "Instances", o_hammer);
 
 	/// @DnDAction : YoYo Games.Rooms.Next_Room

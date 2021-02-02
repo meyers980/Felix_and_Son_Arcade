@@ -24,6 +24,7 @@ if(room == start_room)
 	/// @DnDHash : 6505CD6B
 	/// @DnDParent : 40E77C9E
 	/// @DnDArgument : "timeline" "t_intro_sr"
+	/// @DnDSaveInfo : "timeline" "t_intro_sr"
 	timeline_index = t_intro_sr;
 	timeline_loop = 0;
 	timeline_running = 1;
@@ -41,6 +42,7 @@ if(room == demo_room)
 	/// @DnDHash : 5B6F64ED
 	/// @DnDParent : 1CB1FCE4
 	/// @DnDArgument : "timeline" "t_rat"
+	/// @DnDSaveInfo : "timeline" "t_rat"
 	timeline_index = t_rat;
 	timeline_loop = 0;
 	timeline_running = 1;
@@ -58,6 +60,7 @@ if(room == demo_room2)
 	/// @DnDHash : 7B548E9A
 	/// @DnDParent : 266B71AA
 	/// @DnDArgument : "timeline" "t_pigeon"
+	/// @DnDSaveInfo : "timeline" "t_pigeon"
 	timeline_index = t_pigeon;
 	timeline_loop = 0;
 	timeline_running = 1;
@@ -75,6 +78,7 @@ if(room == demo_room3)
 	/// @DnDHash : 61C28160
 	/// @DnDParent : 3D8E9015
 	/// @DnDArgument : "timeline" "t_fox"
+	/// @DnDSaveInfo : "timeline" "t_fox"
 	timeline_index = t_fox;
 	timeline_loop = 0;
 	timeline_running = 1;

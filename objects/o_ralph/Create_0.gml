@@ -4,6 +4,7 @@
 /// @DnDArgument : "var" "ralphcount"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "object" "o_ralph"
+/// @DnDSaveInfo : "object" "o_ralph"
 var ralphcount = instance_number(o_ralph);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -42,6 +43,7 @@ if(x > 320)
 /// @DnDVersion : 1
 /// @DnDHash : 538974CD
 /// @DnDArgument : "timeline" "t_ralph_throw"
+/// @DnDSaveInfo : "timeline" "t_ralph_throw"
 timeline_index = t_ralph_throw;
 timeline_loop = 0;
 timeline_running = 1;

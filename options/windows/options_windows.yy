@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Felix and Son Arcade",
   "option_windows_executable_name": "${project_name}",
-  "option_windows_version": "1.0.0.0",
+  "option_windows_version": "1.0.0.1",
   "option_windows_company_info": "Sergio Stuff",
   "option_windows_product_info": "Felix and Son Arcade",
   "option_windows_copyright_info": "(c) 2020 Sergio Stuff",

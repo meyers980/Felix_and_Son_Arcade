@@ -15,6 +15,7 @@ spawnside = 1;
 /// @DnDVersion : 1.1
 /// @DnDHash : 708945A3
 /// @DnDArgument : "script" "create_enemies"
+/// @DnDSaveInfo : "script" "create_enemies"
 script_execute(create_enemies);
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm

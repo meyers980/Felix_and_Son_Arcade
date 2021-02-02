@@ -2,6 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 3A62285E
 /// @DnDArgument : "font" "score_font"
+/// @DnDSaveInfo : "font" "score_font"
 draw_set_font(score_font);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
@@ -17,4 +18,5 @@ draw_text(x + 0, y + 0,  + string(200));
 /// @DnDVersion : 1
 /// @DnDHash : 050EA61E
 /// @DnDArgument : "font" "arcade_font"
+/// @DnDSaveInfo : "font" "arcade_font"
 draw_set_font(arcade_font);

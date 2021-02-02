@@ -5,6 +5,7 @@
 /// @DnDArgument : "ypos" "20"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "o_protector"
+/// @DnDSaveInfo : "objectid" "o_protector"
 instance_create_layer(x + 0, y + 20, "Instances", o_protector);
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed

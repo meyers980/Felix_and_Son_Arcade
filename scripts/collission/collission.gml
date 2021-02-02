@@ -12,6 +12,7 @@ function collission()
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "o_solid"
+	/// @DnDSaveInfo : "object" "o_solid"
 	var l545483BD_0 = instance_place(x + hsp, y + 0, o_solid);
 	if ((l545483BD_0 > 0))
 	{
@@ -39,6 +40,7 @@ function collission()
 			/// @DnDArgument : "y_relative" "1"
 			/// @DnDArgument : "object" "o_solid"
 			/// @DnDArgument : "not" "1"
+			/// @DnDSaveInfo : "object" "o_solid"
 			var l6C59EC97_0 = instance_place(x + sign(hsp), y + 0, o_solid);
 			if (!(l6C59EC97_0 > 0))
 			{
@@ -93,6 +95,7 @@ function collission()
 	/// @DnDArgument : "y" "vsp"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "o_solid"
+	/// @DnDSaveInfo : "object" "o_solid"
 	var l616CB852_0 = instance_place(x + 0, y + vsp, o_solid);
 	if ((l616CB852_0 > 0))
 	{
@@ -120,6 +123,7 @@ function collission()
 			/// @DnDArgument : "y_relative" "1"
 			/// @DnDArgument : "object" "o_solid"
 			/// @DnDArgument : "not" "1"
+			/// @DnDSaveInfo : "object" "o_solid"
 			var l28D4B5F5_0 = instance_place(x + 0, y + sign(vsp), o_solid);
 			if (!(l28D4B5F5_0 > 0))
 			{

@@ -9,6 +9,7 @@ state = es.WALK;
 /// @DnDVersion : 1
 /// @DnDHash : 0E7194F3
 /// @DnDArgument : "soundid" "brick_throw"
+/// @DnDSaveInfo : "soundid" "brick_throw"
 audio_play_sound(brick_throw, 0, 0);
 
 /// @DnDAction : YoYo Games.Movement.Set_Speed
@@ -45,6 +46,7 @@ switch(l05DDF506_0)
 		/// @DnDHash : 671AB2A4
 		/// @DnDParent : 3B4F9728
 		/// @DnDArgument : "obj" "FelxSr_Obj"
+		/// @DnDSaveInfo : "obj" "FelxSr_Obj"
 		var l671AB2A4_0 = false;
 		l671AB2A4_0 = instance_exists(FelxSr_Obj);
 		if(l671AB2A4_0)
@@ -133,6 +135,7 @@ switch(l05DDF506_0)
 		/// @DnDHash : 7188175D
 		/// @DnDParent : 054AD881
 		/// @DnDArgument : "obj" "FelxJr_Obj"
+		/// @DnDSaveInfo : "obj" "FelxJr_Obj"
 		var l7188175D_0 = false;
 		l7188175D_0 = instance_exists(FelxJr_Obj);
 		if(l7188175D_0)

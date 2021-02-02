@@ -41,6 +41,7 @@ switch(l1B64A611_0)
 			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_rat"
 			/// @DnDArgument : "layer" ""Enemy""
+			/// @DnDSaveInfo : "objectid" "o_rat"
 			instance_create_layer(0, 48, "Enemy", o_rat);
 		}
 	
@@ -58,6 +59,7 @@ switch(l1B64A611_0)
 			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_rat"
 			/// @DnDArgument : "layer" ""Enemy""
+			/// @DnDSaveInfo : "objectid" "o_rat"
 			instance_create_layer(640, 48, "Enemy", o_rat);
 		}
 		break;
@@ -83,6 +85,7 @@ switch(l1B64A611_0)
 			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_pigeon"
 			/// @DnDArgument : "layer" ""Enemy""
+			/// @DnDSaveInfo : "objectid" "o_pigeon"
 			instance_create_layer(0, 48, "Enemy", o_pigeon);
 		}
 	
@@ -100,6 +103,7 @@ switch(l1B64A611_0)
 			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_pigeon"
 			/// @DnDArgument : "layer" ""Enemy""
+			/// @DnDSaveInfo : "objectid" "o_pigeon"
 			instance_create_layer(640, 48, "Enemy", o_pigeon);
 		}
 		break;
@@ -125,6 +129,7 @@ switch(l1B64A611_0)
 			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_fox"
 			/// @DnDArgument : "layer" ""Enemy""
+			/// @DnDSaveInfo : "objectid" "o_fox"
 			instance_create_layer(0, 48, "Enemy", o_fox);
 		}
 	
@@ -142,6 +147,7 @@ switch(l1B64A611_0)
 			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_fox"
 			/// @DnDArgument : "layer" ""Enemy""
+			/// @DnDSaveInfo : "objectid" "o_fox"
 			instance_create_layer(640, 48, "Enemy", o_fox);
 		}
 		break;
@@ -167,6 +173,7 @@ switch(l1B64A611_0)
 			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_dollar"
 			/// @DnDArgument : "layer" ""Enemy""
+			/// @DnDSaveInfo : "objectid" "o_dollar"
 			instance_create_layer(0, 48, "Enemy", o_dollar);
 		}
 	
@@ -184,6 +191,7 @@ switch(l1B64A611_0)
 			/// @DnDArgument : "ypos" "48"
 			/// @DnDArgument : "objectid" "o_dollar"
 			/// @DnDArgument : "layer" ""Enemy""
+			/// @DnDSaveInfo : "objectid" "o_dollar"
 			instance_create_layer(640, 48, "Enemy", o_dollar);
 		}
 		break;

@@ -11,6 +11,7 @@ hsp = walk_spd;
 /// @DnDApplyTo : o_demo
 /// @DnDArgument : "imageind" "1"
 /// @DnDArgument : "spriteind" "fox_demo"
+/// @DnDSaveInfo : "spriteind" "fox_demo"
 with(o_demo) {
 sprite_index = fox_demo;
 image_index = 1;

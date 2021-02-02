@@ -53,6 +53,7 @@ function col_playertoenemy()
 					/// @DnDHash : 2A8B5F9A
 					/// @DnDParent : 56AE747B
 					/// @DnDArgument : "soundid" "Enemy_Cage"
+					/// @DnDSaveInfo : "soundid" "Enemy_Cage"
 					audio_play_sound(Enemy_Cage, 0, 0);
 				
 					/// @DnDAction : YoYo Games.Instances.Set_Alarm
@@ -119,6 +120,7 @@ function col_playertoenemy()
 						/// @DnDHash : 6F3BEBC1
 						/// @DnDParent : 032DA198
 						/// @DnDArgument : "soundid" "Player_Damage"
+						/// @DnDSaveInfo : "soundid" "Player_Damage"
 						audio_play_sound(Player_Damage, 0, 0);
 					
 						/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
@@ -213,6 +215,7 @@ function col_playertoenemy()
 			/// @DnDHash : 57CA26FB
 			/// @DnDParent : 57750A33
 			/// @DnDArgument : "soundid" "Cage_Hit"
+			/// @DnDSaveInfo : "soundid" "Cage_Hit"
 			audio_play_sound(Cage_Hit, 0, 0);
 		
 			/// @DnDAction : YoYo Games.Common.Apply_To
@@ -275,6 +278,7 @@ function col_playertoenemy()
 			/// @DnDHash : 2912B802
 			/// @DnDParent : 74F26EE4
 			/// @DnDArgument : "soundid" "Cage_Hit"
+			/// @DnDSaveInfo : "soundid" "Cage_Hit"
 			audio_play_sound(Cage_Hit, 0, 0);
 		
 			/// @DnDAction : YoYo Games.Common.Apply_To

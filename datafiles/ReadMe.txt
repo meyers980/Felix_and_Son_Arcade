@@ -15,3 +15,5 @@ Esc - Quit
 F12 Toggle Fullscreen
 
 You can change controls in settings.ini. To change, find the UTF-8 value for the key you'd like to use (if it's in hex, convert it to decimal). This site can help you get the hex values of keys. https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
+
+Post v2.3.1

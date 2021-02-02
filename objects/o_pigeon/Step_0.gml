@@ -40,6 +40,7 @@ switch(l1DDFA5C2_0)
 		/// @DnDHash : 737C48F4
 		/// @DnDParent : 364853AC
 		/// @DnDArgument : "script" "calc_movement"
+		/// @DnDSaveInfo : "script" "calc_movement"
 		script_execute(calc_movement);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
@@ -47,6 +48,7 @@ switch(l1DDFA5C2_0)
 		/// @DnDHash : 7D26A534
 		/// @DnDParent : 364853AC
 		/// @DnDArgument : "script" "collission"
+		/// @DnDSaveInfo : "script" "collission"
 		script_execute(collission);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
@@ -54,6 +56,7 @@ switch(l1DDFA5C2_0)
 		/// @DnDHash : 3BFBA1AE
 		/// @DnDParent : 364853AC
 		/// @DnDArgument : "script" "anim_enemy"
+		/// @DnDSaveInfo : "script" "anim_enemy"
 		script_execute(anim_enemy);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
@@ -61,6 +64,7 @@ switch(l1DDFA5C2_0)
 		/// @DnDHash : 4830091B
 		/// @DnDParent : 364853AC
 		/// @DnDArgument : "script" "check_ground"
+		/// @DnDSaveInfo : "script" "check_ground"
 		script_execute(check_ground);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
@@ -68,6 +72,7 @@ switch(l1DDFA5C2_0)
 		/// @DnDHash : 68FC0F8B
 		/// @DnDParent : 364853AC
 		/// @DnDArgument : "script" "check_pigeon_jump"
+		/// @DnDSaveInfo : "script" "check_pigeon_jump"
 		script_execute(check_pigeon_jump);
 		break;
 
@@ -82,6 +87,7 @@ switch(l1DDFA5C2_0)
 		/// @DnDHash : 1F5F44E8
 		/// @DnDParent : 1A5CF41F
 		/// @DnDArgument : "script" "collission"
+		/// @DnDSaveInfo : "script" "collission"
 		script_execute(collission);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
@@ -89,6 +95,7 @@ switch(l1DDFA5C2_0)
 		/// @DnDHash : 59B37FB0
 		/// @DnDParent : 1A5CF41F
 		/// @DnDArgument : "script" "anim_enemy"
+		/// @DnDSaveInfo : "script" "anim_enemy"
 		script_execute(anim_enemy);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
@@ -128,6 +135,7 @@ switch(l1DDFA5C2_0)
 		/// @DnDHash : 394FD64B
 		/// @DnDParent : 5B713C1B
 		/// @DnDArgument : "script" "collission"
+		/// @DnDSaveInfo : "script" "collission"
 		script_execute(collission);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
@@ -135,6 +143,7 @@ switch(l1DDFA5C2_0)
 		/// @DnDHash : 081BC2CA
 		/// @DnDParent : 5B713C1B
 		/// @DnDArgument : "script" "anim_enemy"
+		/// @DnDSaveInfo : "script" "anim_enemy"
 		script_execute(anim_enemy);
 		break;
 }

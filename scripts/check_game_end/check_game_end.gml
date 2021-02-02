@@ -9,6 +9,7 @@ function check_game_end()
 	/// @DnDHash : 3FE0B8DB
 	/// @DnDParent : 59A3E3E0
 	/// @DnDArgument : "obj" "FelxSr_Obj"
+	/// @DnDSaveInfo : "obj" "FelxSr_Obj"
 	var l3FE0B8DB_0 = false;
 	l3FE0B8DB_0 = instance_exists(FelxSr_Obj);
 	if(l3FE0B8DB_0)
@@ -30,6 +31,7 @@ function check_game_end()
 	/// @DnDHash : 66642FC8
 	/// @DnDParent : 59A3E3E0
 	/// @DnDArgument : "obj" "FelxJr_Obj"
+	/// @DnDSaveInfo : "obj" "FelxJr_Obj"
 	var l66642FC8_0 = false;
 	l66642FC8_0 = instance_exists(FelxJr_Obj);
 	if(l66642FC8_0)
@@ -59,6 +61,7 @@ function check_game_end()
 		/// @DnDHash : 7E7A3328
 		/// @DnDParent : 7A1392E3
 		/// @DnDArgument : "obj" "FelxSr_Obj"
+		/// @DnDSaveInfo : "obj" "FelxSr_Obj"
 		var l7E7A3328_0 = false;
 		l7E7A3328_0 = instance_exists(FelxSr_Obj);
 		if(l7E7A3328_0)
@@ -80,6 +83,7 @@ function check_game_end()
 		/// @DnDHash : 31B199BE
 		/// @DnDParent : 7A1392E3
 		/// @DnDArgument : "obj" "FelxJr_Obj"
+		/// @DnDSaveInfo : "obj" "FelxJr_Obj"
 		var l31B199BE_0 = false;
 		l31B199BE_0 = instance_exists(FelxJr_Obj);
 		if(l31B199BE_0)
@@ -110,6 +114,7 @@ function check_game_end()
 			/// @DnDHash : 354F3C8B
 			/// @DnDParent : 1CBEB26C
 			/// @DnDArgument : "script" "destroy_enemies"
+			/// @DnDSaveInfo : "script" "destroy_enemies"
 			script_execute(destroy_enemies);
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
@@ -136,6 +141,7 @@ function check_game_end()
 			/// @DnDHash : 0A5453AD
 			/// @DnDParent : 69E8310E
 			/// @DnDArgument : "script" "destroy_enemies"
+			/// @DnDSaveInfo : "script" "destroy_enemies"
 			script_execute(destroy_enemies);
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm

@@ -10,4 +10,5 @@ global.coins += 1;
 /// @DnDVersion : 1
 /// @DnDHash : 34E1CBB6
 /// @DnDArgument : "soundid" "Credit_Sound"
+/// @DnDSaveInfo : "soundid" "Credit_Sound"
 audio_play_sound(Credit_Sound, 0, 0);

@@ -40,6 +40,7 @@ switch(l0A2408A3_0)
 		/// @DnDHash : 79246EF0
 		/// @DnDParent : 20FF90BC
 		/// @DnDArgument : "script" "calc_movement"
+		/// @DnDSaveInfo : "script" "calc_movement"
 		script_execute(calc_movement);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
@@ -47,6 +48,7 @@ switch(l0A2408A3_0)
 		/// @DnDHash : 2F65C546
 		/// @DnDParent : 20FF90BC
 		/// @DnDArgument : "script" "collission"
+		/// @DnDSaveInfo : "script" "collission"
 		script_execute(collission);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
@@ -54,6 +56,7 @@ switch(l0A2408A3_0)
 		/// @DnDHash : 6A1A0D74
 		/// @DnDParent : 20FF90BC
 		/// @DnDArgument : "script" "anim_enemy"
+		/// @DnDSaveInfo : "script" "anim_enemy"
 		script_execute(anim_enemy);
 		break;
 }

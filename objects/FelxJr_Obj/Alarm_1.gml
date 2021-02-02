@@ -22,6 +22,7 @@ if(__dnd_lives > 0)
 	/// @DnDArgument : "ypos" "20"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "o_platform"
+	/// @DnDSaveInfo : "objectid" "o_platform"
 	instance_create_layer(x + 0, y + 20, "Instances", o_platform);
 }
 
@@ -35,6 +36,7 @@ else
 	/// @DnDHash : 317CCD82
 	/// @DnDParent : 2C7256E2
 	/// @DnDArgument : "soundid" "Player_Dead"
+	/// @DnDSaveInfo : "soundid" "Player_Dead"
 	audio_play_sound(Player_Dead, 0, 0);
 
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point

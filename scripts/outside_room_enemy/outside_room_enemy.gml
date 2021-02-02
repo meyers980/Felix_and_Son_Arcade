@@ -23,6 +23,7 @@ function outside_room_enemy()
 			/// @DnDHash : 3B1DA025
 			/// @DnDParent : 7D3E7014
 			/// @DnDArgument : "soundid" "Enemy_Outside_Room"
+			/// @DnDSaveInfo : "soundid" "Enemy_Outside_Room"
 			audio_play_sound(Enemy_Outside_Room, 0, 0);
 		
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Score

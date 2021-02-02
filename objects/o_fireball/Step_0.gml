@@ -26,5 +26,6 @@ if (!audio_is_playing(l7F0173F9_0))
 	/// @DnDHash : 79BFA6FD
 	/// @DnDParent : 7F0173F9
 	/// @DnDArgument : "soundid" "saw_sound"
+	/// @DnDSaveInfo : "soundid" "saw_sound"
 	audio_play_sound(saw_sound, 0, 0);
 }

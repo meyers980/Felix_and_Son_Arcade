@@ -13,4 +13,5 @@ y = 10;
 /// @DnDArgument : "ypos" "20"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "o_platform"
+/// @DnDSaveInfo : "objectid" "o_platform"
 instance_create_layer(x + 0, y + 20, "Instances", o_platform);

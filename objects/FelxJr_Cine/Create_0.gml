@@ -16,6 +16,7 @@ jump = false;
 /// @DnDVersion : 1
 /// @DnDHash : 6505CD6B
 /// @DnDArgument : "timeline" "t_intro_jr"
+/// @DnDSaveInfo : "timeline" "t_intro_jr"
 timeline_index = t_intro_jr;
 timeline_loop = 0;
 timeline_running = 1;

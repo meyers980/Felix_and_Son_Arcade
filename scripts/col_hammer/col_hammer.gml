@@ -9,6 +9,7 @@ function col_hammer()
 	/// @DnDHash : 69F2BD9D
 	/// @DnDParent : 06B8D0AF
 	/// @DnDArgument : "soundid" "hammer"
+	/// @DnDSaveInfo : "soundid" "hammer"
 	audio_play_sound(hammer, 0, 0);
 
 	/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
@@ -18,6 +19,7 @@ function col_hammer()
 	/// @DnDArgument : "var" "ratcount"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "object" "o_rat"
+	/// @DnDSaveInfo : "object" "o_rat"
 	var ratcount = instance_number(o_rat);
 
 	/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
@@ -27,6 +29,7 @@ function col_hammer()
 	/// @DnDArgument : "var" "foxcount"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "object" "o_fox"
+	/// @DnDSaveInfo : "object" "o_fox"
 	var foxcount = instance_number(o_fox);
 
 	/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
@@ -36,6 +39,7 @@ function col_hammer()
 	/// @DnDArgument : "var" "pigeoncount"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "object" "o_pigeon"
+	/// @DnDSaveInfo : "object" "o_pigeon"
 	var pigeoncount = instance_number(o_pigeon);
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
@@ -44,6 +48,7 @@ function col_hammer()
 	/// @DnDParent : 06B8D0AF
 	/// @DnDArgument : "soundid" "Enemy_Cage"
 	/// @DnDArgument : "loop" "1"
+	/// @DnDSaveInfo : "soundid" "Enemy_Cage"
 	audio_play_sound(Enemy_Cage, 0, 1);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm

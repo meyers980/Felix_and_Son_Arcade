@@ -31,6 +31,7 @@ function anim_enemy()
 			/// @DnDHash : 2F4BDE28
 			/// @DnDParent : 163CC969
 			/// @DnDArgument : "script" "check_facing"
+			/// @DnDSaveInfo : "script" "check_facing"
 			script_execute(check_facing);
 			break;
 	
@@ -53,6 +54,7 @@ function anim_enemy()
 			/// @DnDHash : 2C9C868F
 			/// @DnDParent : 494996F9
 			/// @DnDArgument : "script" "check_facing"
+			/// @DnDSaveInfo : "script" "check_facing"
 			script_execute(check_facing);
 			break;
 	
@@ -75,6 +77,7 @@ function anim_enemy()
 			/// @DnDHash : 45004B74
 			/// @DnDParent : 1E7BC0F8
 			/// @DnDArgument : "script" "check_facing"
+			/// @DnDSaveInfo : "script" "check_facing"
 			script_execute(check_facing);
 		
 			/// @DnDAction : YoYo Games.Movement.Set_Speed

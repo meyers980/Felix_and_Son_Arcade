@@ -10,6 +10,7 @@ __dnd_score += real(200);
 /// @DnDVersion : 1
 /// @DnDHash : 39EF6FF3
 /// @DnDArgument : "soundid" "dollar"
+/// @DnDSaveInfo : "soundid" "dollar"
 audio_play_sound(dollar, 0, 0);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -19,6 +20,7 @@ audio_play_sound(dollar, 0, 0);
 /// @DnDArgument : "xpos_relative" "1"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "dollar_display"
+/// @DnDSaveInfo : "objectid" "dollar_display"
 with(other) {
 	instance_create_layer(x + 0, y + 0, "Instances", dollar_display); 
 }

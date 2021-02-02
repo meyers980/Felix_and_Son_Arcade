@@ -28,6 +28,7 @@ function check_lives()
 		/// @DnDArgument : "ypos" "160"
 		/// @DnDArgument : "var" "go"
 		/// @DnDArgument : "objectid" "o_gameover"
+		/// @DnDSaveInfo : "objectid" "o_gameover"
 		go = instance_create_layer(320, 160, "Instances", o_gameover);
 	
 		/// @DnDAction : YoYo Games.Common.If_Expression
@@ -49,6 +50,7 @@ function check_lives()
 				/// @DnDParent : 6A502832
 				/// @DnDArgument : "imageind" "1"
 				/// @DnDArgument : "spriteind" "s_gameover"
+				/// @DnDSaveInfo : "spriteind" "s_gameover"
 				sprite_index = s_gameover;
 				image_index = 1;
 			}
@@ -59,6 +61,7 @@ function check_lives()
 		/// @DnDHash : 7C29B66E
 		/// @DnDParent : 30B0335B
 		/// @DnDArgument : "script" "check_game_end"
+		/// @DnDSaveInfo : "script" "check_game_end"
 		script_execute(check_game_end);
 	}
 }

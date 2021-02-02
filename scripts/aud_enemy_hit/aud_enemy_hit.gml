@@ -23,6 +23,7 @@ function aud_enemy_hit()
 			/// @DnDHash : 16636654
 			/// @DnDParent : 77CAC1C2
 			/// @DnDArgument : "soundid" "Destroy_1"
+			/// @DnDSaveInfo : "soundid" "Destroy_1"
 			audio_play_sound(Destroy_1, 0, 0);
 			break;
 	
@@ -37,6 +38,7 @@ function aud_enemy_hit()
 			/// @DnDHash : 09CB18F8
 			/// @DnDParent : 31BC7489
 			/// @DnDArgument : "soundid" "Destroy_2"
+			/// @DnDSaveInfo : "soundid" "Destroy_2"
 			audio_play_sound(Destroy_2, 0, 0);
 			break;
 	
@@ -51,6 +53,7 @@ function aud_enemy_hit()
 			/// @DnDHash : 3E9DFF2D
 			/// @DnDParent : 2B324E56
 			/// @DnDArgument : "soundid" "Destroy_3"
+			/// @DnDSaveInfo : "soundid" "Destroy_3"
 			audio_play_sound(Destroy_3, 0, 0);
 			break;
 	
@@ -65,6 +68,7 @@ function aud_enemy_hit()
 			/// @DnDHash : 16397B5D
 			/// @DnDParent : 7915AF7B
 			/// @DnDArgument : "soundid" "Destroy_4"
+			/// @DnDSaveInfo : "soundid" "Destroy_4"
 			audio_play_sound(Destroy_4, 0, 0);
 			break;
 	
@@ -79,6 +83,7 @@ function aud_enemy_hit()
 			/// @DnDHash : 07FDDEFA
 			/// @DnDParent : 7E2A3D6E
 			/// @DnDArgument : "soundid" "Destroy_5"
+			/// @DnDSaveInfo : "soundid" "Destroy_5"
 			audio_play_sound(Destroy_5, 0, 0);
 			break;
 	
@@ -93,6 +98,7 @@ function aud_enemy_hit()
 			/// @DnDHash : 079361D6
 			/// @DnDParent : 343D1243
 			/// @DnDArgument : "soundid" "Destroy_6"
+			/// @DnDSaveInfo : "soundid" "Destroy_6"
 			audio_play_sound(Destroy_6, 0, 0);
 			break;
 	}

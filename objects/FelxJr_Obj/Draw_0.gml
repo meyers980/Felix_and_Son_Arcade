@@ -14,6 +14,7 @@ draw_sprite_ext(sprite_index, image_index, x + 0, y + 0, facing, 1, 0, $FFFFFF &
 /// @DnDArgument : "x" "453"
 /// @DnDArgument : "y" "5"
 /// @DnDArgument : "sprite" "s_FelixJr_Text"
+/// @DnDSaveInfo : "sprite" "s_FelixJr_Text"
 draw_sprite(s_FelixJr_Text, 0, 453, 5);
 
 /// @DnDAction : YoYo Games.Instance Variables.Get_Score
@@ -39,6 +40,7 @@ draw_text(539, 5,  + string(string_format(tempscore, 6, 0)));
 /// @DnDArgument : "x" "474"
 /// @DnDArgument : "y" "25"
 /// @DnDArgument : "sprite" "s_Jr_Lives"
+/// @DnDSaveInfo : "sprite" "s_Jr_Lives"
 var l3F8417A9_0 = sprite_get_width(s_Jr_Lives);
 var l3F8417A9_1 = 0;
 if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;

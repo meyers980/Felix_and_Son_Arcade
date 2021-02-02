@@ -18,6 +18,7 @@ drag = 1;
 /// @DnDHash : 5593B0CA
 /// @DnDApplyTo : o_demo
 /// @DnDArgument : "spriteind" "fox_demo"
+/// @DnDSaveInfo : "spriteind" "fox_demo"
 with(o_demo) {
 sprite_index = fox_demo;
 image_index = 0;
